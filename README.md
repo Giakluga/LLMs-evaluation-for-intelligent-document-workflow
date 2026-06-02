@@ -121,7 +121,7 @@ Python 3.10+. Main dependencies:
 pip install torch transformers peft timm Pillow datasets evaluate
 ```
 
-Fine-tuning experiments require a GPU. All inference notebooks can run on CPU for smaller models (SmolVLM, CLIP), but GPU is recommended for Qwen2-VL-7B and PaliGemma2-3B.
+Fine-tuning experiments require a GPU. All inference notebooks can run on CPU for smaller models (SmolVLM, CLIP), yet GPU is recommended for Qwen2-VL-7B and PaliGemma2-3B.
 
 ---
 
