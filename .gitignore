@@ -36,6 +36,13 @@ models/
 weights/
 checkpoints/
 
+# Generated notebook outputs (re-created by running the notebooks)
+01_explore/output/
+zero_cla/zero_shot_cla_out/
+few_cla/output/
+extraction/outputs/
+fine-tuning/output/
+
 # LaTeX (source and auxiliary files)
 *.tex
 *.aux

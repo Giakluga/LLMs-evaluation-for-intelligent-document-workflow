@@ -57,70 +57,33 @@ For each task we benchmark **zero-shot and few-shot prompting** across multiple 
 
 ```
 ├── 01_explore/
-│   ├── 01_explore_dataset_v2.ipynb        # Dataset exploration notebook
-│   └── output/
-│       ├── 01_dataset_summary.txt         # Per-class statistics (size, brightness, aspect ratio)
-│       ├── 01_class_distribution.png      # Bar chart of class frequencies
-│       ├── 01_all_classes_grid.png        # Sample image grid for all 16 classes
-│       ├── 01_invoice_grid.png            # Invoice class samples
-│       ├── 01_invoice_vs_rest.png         # Visual comparison: invoice vs other classes
-│       ├── 01_brightness.png             # Brightness distribution by class
-│       ├── 01_image_sizes.png            # Aspect ratio / resolution scatter
-│       └── 01_feature_heatmap.png        # Feature correlation heatmap
+│   └── 01_explore_dataset_v2.ipynb   # Dataset exploration: class distribution, brightness,
+│                                      #   aspect ratio, invoice vs. rest comparison
 │
 ├── zero_cla/
-│   ├── zero-shot_classification.ipynb     # Zero-shot classification across all models
-│   └── zero_shot_cla_out/
-│       ├── __huggingface_repos__.json     # Pinned model/dataset commit hashes
-│       └── __results___files/            # Exported confusion matrices and charts
+│   └── zero-shot_classification.ipynb  # Zero-shot classification across 6 models
+│                                        #   (Qwen2-VL-7B, Qwen2.5-VL-3B, PaliGemma2-3B,
+│                                        #    SmolVLM-500M, CLIP ViT-B/32, DiT-large)
 │
 ├── few_cla/
-│   ├── 02_classification_fewshot_v2.ipynb # 1-shot classification (2 examples/class)
-│   └── output/
-│       ├── 02_fewshot_results.txt         # Full per-model, per-class classification report
-│       ├── 02_fewshot_comparison.png      # Accuracy/F1 bar chart across models
-│       ├── few_shot_comparison.png        # Zero-shot vs few-shot delta comparison
-│       ├── cm_qwen2-vl-7b.png            # Confusion matrix — Qwen2-VL-7B
-│       ├── cm_qwen2.5-vl-3b.png          # Confusion matrix — Qwen2.5-VL-3B
-│       ├── cm_paligemma2-3b.png          # Confusion matrix — PaliGemma2-3B
-│       ├── cm_smolvlm-500m.png           # Confusion matrix — SmolVLM-500M
-│       ├── cm_clip_vit-b_32.png          # Confusion matrix — CLIP ViT-B/32
-│       └── cm_dit-large.png              # Confusion matrix — DiT-large (reference)
+│   └── 02_classification_fewshot_v2.ipynb  # 1-shot classification (2 examples/class,
+│                                            #   32 images in context)
 │
 ├── extraction/
-│   ├── zero-shot-information-extraction-sroie.ipynb   # Zero-shot extraction on SROIE
-│   ├── few-shot-information-extraction-sroie.ipynb    # 10-shot extraction on SROIE
-│   ├── rescore-zero-and-few-shot.ipynb                # Unified scoring & comparison notebook
-│   └── outputs/few_shot_unzipped/
-│       ├── baseline_results.json          # Tesseract OCR + regex baseline predictions
-│       ├── qwen_results.json             # Qwen2-VL-7B predictions + metrics
-│       ├── pali_results.json             # PaliGemma2-3B predictions + metrics
-│       ├── smol_results.json             # SmolVLM-500M predictions + metrics
-│       ├── qwen2b_results.json           # Qwen2.5-VL-3B predictions + metrics
-│       └── fewshot_examples/             # The 10 in-context examples used per model
+│   ├── zero-shot-information-extraction-sroie.ipynb  # Zero-shot field extraction on SROIE
+│   ├── few-shot-information-extraction-sroie.ipynb   # 10-shot field extraction on SROIE
+│   └── rescore-zero-and-few-shot.ipynb               # Unified rescoring with reinforced
+│                                                      #   normalisers (currency, date)
 │
 ├── fine-tuning/
-│   ├── 03_deit_finetuning_v2.ipynb       # DeiT-small two-phase fine-tuning
-│   ├── 05_paligemma_finetuning.ipynb     # PaliGemma2-3B + LoRA (r=16) fine-tuning
-│   ├── 06_deit_comparison.ipynb          # Pre-trained vs fine-tuned DeiT analysis
-│   └── output/
-│       ├── 03_deit_results.txt           # DeiT-small fine-tuned classification report
-│       ├── 03_deit_learning_curves.png   # Training/validation loss and accuracy curves
-│       ├── 03_deit_confusion_matrix.png  # DeiT-small confusion matrix
-│       ├── 03_comparison_fewshot_vs_ft.png # Few-shot vs fine-tuned accuracy comparison
-│       ├── 03_comparison_results.txt     # Numeric comparison table
-│       ├── 05_paligemma_results.txt      # PaliGemma2-3B LoRA classification report
-│       ├── 05_paligemma_learning_curves.png
-│       ├── 05_paligemma_confusion_matrix.png
-│       ├── 05_comparison_all_models.png  # All models side-by-side comparison
-│       ├── 06_pretrained_vs_finetuned_results.txt  # Pre-trained vs fine-tuned delta
-│       ├── 06_f1_per_class_comparison.png
-│       ├── 06_delta_f1_per_class.png     # Per-class F1 improvement from fine-tuning
-│       ├── 06_confusion_matrices_comparison.png
-│       └── deit_small_best.pt            # Best DeiT-small checkpoint
+│   ├── 03_deit_finetuning_v2.ipynb    # DeiT-small two-phase fine-tuning on RVL-CDIP
+│   ├── 05_paligemma_finetuning.ipynb  # PaliGemma2-3B + LoRA (r=16) fine-tuning
+│   └── 06_deit_comparison.ipynb       # Pre-trained vs fine-tuned DeiT analysis
 │
 └── LLM_Evaluation_for_Intelligent_Document_Workflows.pdf   # Full report
 ```
+
+> Output folders (`output/`, `outputs/`) are excluded from the repo — all plots, metrics, and checkpoints are regenerated by running the notebooks.
 
 ---
 
