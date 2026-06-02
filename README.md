@@ -56,9 +56,12 @@ For each task we benchmark **zero-shot and few-shot prompting** across multiple 
 ## Repository Structure
 
 ```
-├── 01_explore/
-│   └── 01_explore_dataset_v2.ipynb   # Dataset exploration: class distribution, brightness,
-│                                      #   aspect ratio, invoice vs. rest comparison
+├── exploration/
+│   ├── 01_explore_dataset_v2.ipynb   # RVL-CDIP exploration: class distribution, brightness,
+│   │                                  #   aspect ratio, invoice vs. rest comparison
+│   └── 01b_explore_sroie_v2.ipynb   # SROIE exploration: field-level statistics (token length,
+│                                     #   missing-value rate), image dimensions, brightness,
+│                                     #   total value distribution, and visual sample grid
 │
 ├── zero_cla/
 │   └── zero-shot_classification.ipynb  # Zero-shot classification across 6 models

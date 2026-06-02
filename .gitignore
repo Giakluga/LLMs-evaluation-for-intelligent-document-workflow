@@ -37,7 +37,7 @@ weights/
 checkpoints/
 
 # Generated notebook outputs (re-created by running the notebooks)
-01_explore/output/
+exploration/output/
 zero_cla/zero_shot_cla_out/
 few_cla/output/
 extraction/outputs/
