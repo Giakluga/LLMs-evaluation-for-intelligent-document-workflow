@@ -1,39 +1,121 @@
 # LLM Evaluation for Intelligent Document Workflows
 
 > **NLP for Business and Finance** — University Project, May 2026  
-> Giacomo Lugana, Roberto Stoian
+> Giacomo Lugana, Roberto Stoian  
+> *In partnership with Sacco AI Consulting*
 
 ---
 
 ## Overview
 
-This project benchmarks open-source **vision-language models (VLMs)** on two core invoice-processing tasks, motivated by the need for a fully local Swiss document platform (in partnership with Sacco AI Consulting) where no data leaves the execution environment.
+This project provides a rigorous comparative evaluation of open-source **vision-language models (VLMs)** for enterprise document understanding, with a focus on **invoices**. The work is motivated by the development of a fully local Swiss document platform: all inference runs locally, no data leaves the execution environment, and no proprietary cloud APIs (e.g. GPT-4o) are used.
 
-| Task | Dataset | Metric |
-|---|---|---|
-| Document classification | RVL-CDIP (16 classes, 400k images) | Accuracy, Macro F1, Invoice F1 |
-| Key-field extraction | SROIE (973 receipts) | Exact match, F1 |
+We cover two operational tasks that mirror a realistic document processing pipeline:
 
-We evaluate **zero-shot and few-shot** prompting across six models, and **fine-tune** DeiT-small and PaliGemma2-3B (LoRA) on the classification task.
+- **Document classification** — routing incoming documents to the correct downstream process, evaluated on the RVL-CDIP dataset (16 document classes, 400k images)
+- **Key-field extraction** — populating structured databases from scanned receipts, evaluated on the SROIE dataset (973 receipts, 4 fields)
+
+For each task we benchmark **zero-shot and few-shot prompting** across multiple models, and additionally **fine-tune** two architecturally distinct models (DeiT-small and PaliGemma2-3B with LoRA) to quantify how much targeted training can close the gap relative to off-the-shelf inference.
 
 ---
 
 ## Key Results
 
-- 🏆 **Fine-tuned PaliGemma2-3B** reaches **90.0% accuracy** and **0.882 invoice F1**, approaching specialist DiT-large at a fraction of the parameters
-- 🔍 **Qwen2-VL-7B** achieves the strongest extraction performance among off-the-shelf models
-- ⚠️ Few-shot prompting consistently **hurts classification** but **benefits large-model extraction** — optimal strategy is task- and model-dependent
+### Document Classification (1-shot, test set: 1,600 images)
+
+| Model | Accuracy | Macro F1 | Invoice F1 |
+|---|---|---|---|
+| **PaliGemma2-3B + LoRA** *(fine-tuned)* | **0.900** | **0.885** | **0.882** |
+| DeiT-small *(fine-tuned)* | 0.757 | 0.741 | 0.600 |
+| DiT-large *(specialist, upper bound)* | 0.930 | 0.930 | 0.925 |
+| Qwen2.5-VL-3B | 0.501 | 0.493 | 0.506 |
+| Qwen2-VL-7B | 0.389 | 0.378 | 0.612 |
+| CLIP ViT-B/32 | 0.354 | 0.313 | 0.365 |
+| PaliGemma2-3B *(zero/few-shot)* | 0.063 | 0.007 | 0.000 |
+
+### Key-Field Extraction (10-shot, test set: 347 receipts)
+
+| Model | Exact Match | Token F1 | Char F1 |
+|---|---|---|---|
+| **Qwen2-VL-7B** | **0.501** | **0.696** | **0.888** |
+| Qwen2.5-VL-3B | 0.311 | 0.481 | 0.750 |
+| PaliGemma2-3B | 0.077 | 0.150 | 0.642 |
+| SmolVLM-500M | 0.000 | 0.000 | 0.000 |
+
+**Main takeaways:**
+- Fine-tuned PaliGemma2-3B (LoRA) approaches the specialist DiT-large at a fraction of the parameters (3B vs 307M, but with general-purpose pretraining)
+- Qwen2-VL-7B is the strongest off-the-shelf model for extraction
+- Few-shot prompting consistently **hurts** classification but **helps** large-model extraction — the optimal strategy is task- and model-dependent
+- SmolVLM-500M (500M params) completely fails at structured extraction in few-shot mode
 
 ---
 
 ## Repository Structure
 
 ```
-├── 01_explore/          # Dataset exploration (RVL-CDIP visual properties)
-├── zero_cla/            # Zero-shot document classification
-├── few_cla/             # Few-shot document classification
-├── extraction/          # Zero-shot & few-shot key-field extraction (SROIE)
-├── fine-tuning/         # DeiT-small and PaliGemma2-3B + LoRA fine-tuning
+├── 01_explore/
+│   ├── 01_explore_dataset_v2.ipynb        # Dataset exploration notebook
+│   └── output/
+│       ├── 01_dataset_summary.txt         # Per-class statistics (size, brightness, aspect ratio)
+│       ├── 01_class_distribution.png      # Bar chart of class frequencies
+│       ├── 01_all_classes_grid.png        # Sample image grid for all 16 classes
+│       ├── 01_invoice_grid.png            # Invoice class samples
+│       ├── 01_invoice_vs_rest.png         # Visual comparison: invoice vs other classes
+│       ├── 01_brightness.png             # Brightness distribution by class
+│       ├── 01_image_sizes.png            # Aspect ratio / resolution scatter
+│       └── 01_feature_heatmap.png        # Feature correlation heatmap
+│
+├── zero_cla/
+│   ├── zero-shot_classification.ipynb     # Zero-shot classification across all models
+│   └── zero_shot_cla_out/
+│       ├── __huggingface_repos__.json     # Pinned model/dataset commit hashes
+│       └── __results___files/            # Exported confusion matrices and charts
+│
+├── few_cla/
+│   ├── 02_classification_fewshot_v2.ipynb # 1-shot classification (2 examples/class)
+│   └── output/
+│       ├── 02_fewshot_results.txt         # Full per-model, per-class classification report
+│       ├── 02_fewshot_comparison.png      # Accuracy/F1 bar chart across models
+│       ├── few_shot_comparison.png        # Zero-shot vs few-shot delta comparison
+│       ├── cm_qwen2-vl-7b.png            # Confusion matrix — Qwen2-VL-7B
+│       ├── cm_qwen2.5-vl-3b.png          # Confusion matrix — Qwen2.5-VL-3B
+│       ├── cm_paligemma2-3b.png          # Confusion matrix — PaliGemma2-3B
+│       ├── cm_smolvlm-500m.png           # Confusion matrix — SmolVLM-500M
+│       ├── cm_clip_vit-b_32.png          # Confusion matrix — CLIP ViT-B/32
+│       └── cm_dit-large.png              # Confusion matrix — DiT-large (reference)
+│
+├── extraction/
+│   ├── zero-shot-information-extraction-sroie.ipynb   # Zero-shot extraction on SROIE
+│   ├── few-shot-information-extraction-sroie.ipynb    # 10-shot extraction on SROIE
+│   ├── rescore-zero-and-few-shot.ipynb                # Unified scoring & comparison notebook
+│   └── outputs/few_shot_unzipped/
+│       ├── baseline_results.json          # Tesseract OCR + regex baseline predictions
+│       ├── qwen_results.json             # Qwen2-VL-7B predictions + metrics
+│       ├── pali_results.json             # PaliGemma2-3B predictions + metrics
+│       ├── smol_results.json             # SmolVLM-500M predictions + metrics
+│       ├── qwen2b_results.json           # Qwen2.5-VL-3B predictions + metrics
+│       └── fewshot_examples/             # The 10 in-context examples used per model
+│
+├── fine-tuning/
+│   ├── 03_deit_finetuning_v2.ipynb       # DeiT-small two-phase fine-tuning
+│   ├── 05_paligemma_finetuning.ipynb     # PaliGemma2-3B + LoRA (r=16) fine-tuning
+│   ├── 06_deit_comparison.ipynb          # Pre-trained vs fine-tuned DeiT analysis
+│   └── output/
+│       ├── 03_deit_results.txt           # DeiT-small fine-tuned classification report
+│       ├── 03_deit_learning_curves.png   # Training/validation loss and accuracy curves
+│       ├── 03_deit_confusion_matrix.png  # DeiT-small confusion matrix
+│       ├── 03_comparison_fewshot_vs_ft.png # Few-shot vs fine-tuned accuracy comparison
+│       ├── 03_comparison_results.txt     # Numeric comparison table
+│       ├── 05_paligemma_results.txt      # PaliGemma2-3B LoRA classification report
+│       ├── 05_paligemma_learning_curves.png
+│       ├── 05_paligemma_confusion_matrix.png
+│       ├── 05_comparison_all_models.png  # All models side-by-side comparison
+│       ├── 06_pretrained_vs_finetuned_results.txt  # Pre-trained vs fine-tuned delta
+│       ├── 06_f1_per_class_comparison.png
+│       ├── 06_delta_f1_per_class.png     # Per-class F1 improvement from fine-tuning
+│       ├── 06_confusion_matrices_comparison.png
+│       └── deit_small_best.pt            # Best DeiT-small checkpoint
+│
 └── LLM_Evaluation_for_Intelligent_Document_Workflows.pdf   # Full report
 ```
 
@@ -41,29 +123,39 @@ We evaluate **zero-shot and few-shot** prompting across six models, and **fine-t
 
 ## Models
 
-| Model | Parameters | Tasks |
-|---|---|---|
-| Qwen2-VL-7B | 7B | Classification, Extraction |
-| PaliGemma2-3B | 3B | Classification, Extraction |
-| PaliGemma2-3B + LoRA | 3B | Classification (fine-tuned) |
-| SmolVLM-500M | 500M | Classification, Extraction |
-| Qwen2.5-VL-3B | 3B | Extraction |
-| DeiT-small | 22M | Classification (fine-tuned) |
+| Model | Parameters | HuggingFace ID | Tasks |
+|---|---|---|---|
+| Qwen2-VL-7B-Instruct | 7B | `Qwen/Qwen2-VL-7B-Instruct` | Classification, Extraction |
+| Qwen2.5-VL-3B-Instruct | 3B | `Qwen/Qwen2.5-VL-3B-Instruct` | Classification, Extraction |
+| PaliGemma2-3B | 3B | `google/paligemma2-3b-mix-448` | Classification, Extraction |
+| PaliGemma2-3B + LoRA | 3B | `google/paligemma2-3b-pt-224` | Classification (fine-tuned) |
+| SmolVLM-500M-Instruct | 500M | `HuggingFaceTB/SmolVLM-500M-Instruct` | Classification, Extraction |
+| CLIP ViT-B/32 | 151M | `openai/clip-vit-base-patch32` | Classification |
+| DeiT-small *(fine-tuned)* | 22M | `facebook/deit-small-patch16-224` | Classification (fine-tuned) |
+| DiT-large *(reference)* | 307M | `microsoft/dit-large-finetuned-rvlcdip` | Classification (upper bound) |
+
+---
+
+## Datasets
+
+**RVL-CDIP** (`chainyo/rvl-cdip`) — The Ryerson Vision Lab Complex Document Image Processing dataset. ~400k grayscale scanned document images across 16 classes: advertisement, budget, email, file folder, form, handwritten, invoice, letter, memo, news article, presentation, questionnaire, resume, scientific publication, scientific report, specification. We use 500 images/class for exploration, 2,000/class for fine-tuning, and 100/class as the standardised test set.
+
+**SROIE** (`darentang/sroie`) — The Scanned Receipts OCR and Information Extraction dataset. ~970 Malaysian retail receipts in JPEG format with word-level NER annotations. We extract 4 fields per receipt: `company`, `date`, `address`, `total`. Test split: 347 receipts.
 
 ---
 
 ## Setup
 
-Python 3.10+
+Python 3.10+. Main dependencies:
 
 ```bash
 pip install torch transformers peft timm Pillow datasets evaluate
 ```
 
-> Fine-tuning experiments were run on GPU. For inference-only notebooks, CPU is sufficient for small models.
+Fine-tuning experiments require a GPU. All inference notebooks can run on CPU for smaller models (SmolVLM, CLIP), but GPU is recommended for Qwen2-VL-7B and PaliGemma2-3B.
 
 ---
 
 ## Report
 
-The full write-up is available in [`LLM_Evaluation_for_Intelligent_Document_Workflows.pdf`](LLM_Evaluation_for_Intelligent_Document_Workflows.pdf).
+Full write-up with methodology, results, and discussion: [`LLM_Evaluation_for_Intelligent_Document_Workflows.pdf`](LLM_Evaluation_for_Intelligent_Document_Workflows.pdf)
