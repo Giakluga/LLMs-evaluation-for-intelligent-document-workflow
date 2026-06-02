@@ -1,0 +1,29 @@
+DeiT-small: Pre-trained vs Fine-tuned — Confronto
+=======================================================
+
+Test set    : 100/classe x 16 = 1600 esempi
+Checkpoint  : /content/drive/MyDrive/NLP_Invoices/outputs/deit_small_best.pt
+
+Metrica                 Pre-trained   Fine-tuned    Delta
+─────────────────────────────────────────────────────────
+Overall Accuracy              0.060        0.756 ▲ 0.696
+Macro F1                      0.036        0.755 ▲ 0.719
+Invoice F1                    0.000        0.643 ▲ 0.643
+
+── F1 per classe ──
+advertisement                     0.052    0.869 ▲ 0.817
+budget                            0.027    0.642 ▲ 0.615
+email                             0.000    0.930 ▲ 0.930
+file folder                       0.050    0.896 ▲ 0.846
+form                              0.090    0.565 ▲ 0.474
+handwritten                       0.137    0.846 ▲ 0.709
+invoice                           0.000    0.643 ▲ 0.643
+letter                            0.000    0.636 ▲ 0.636
+memo                              0.000    0.731 ▲ 0.731
+news article                      0.083    0.842 ▲ 0.758
+presentation                      0.095    0.683 ▲ 0.588
+questionnaire                     0.000    0.696 ▲ 0.696
+resume                            0.000    0.868 ▲ 0.868
+scientific publication            0.000    0.847 ▲ 0.847
+scientific report                 0.035    0.544 ▲ 0.509
+specification                     0.000    0.846 ▲ 0.846

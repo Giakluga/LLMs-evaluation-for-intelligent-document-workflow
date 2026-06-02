@@ -1,0 +1,2103 @@
+{
+  "predictions": [
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "OTC Marketing SDN BHD",
+      "date": "02/01/2019",
+      "address": "81750 MASAIJ, JOHOR",
+      "total": "170.00"
+    },
+    {
+      "company": "GOGIANT ENGINEERING (M) Sdn Bhd",
+      "date": "09/02/2018",
+      "address": "S1 6783",
+      "total": "{'cash': '411.50', 'creditcard': '411.50'}"
+    },
+    {
+      "company": "PETRONALGKI BKT LANJAN SB",
+      "date": "01/02/2018",
+      "address": "470000 SUNGIAI BUL",
+      "total": "{'cashprice': '5.00', 'changeprice': '0.10', 'gstprice': '0.28', 'taxprice': '0.28'}"
+    },
+    {
+      "company": "Gerbang Alaf Restaurants Sdn Bhd",
+      "date": "190",
+      "address": "65351-M",
+      "total": "2.20"
+    },
+    {
+      "company": "THANK YOU",
+      "date": "05/02/2018",
+      "address": "THANQUIST CENTER, 100000 CHICHENGONG, CHICHENGONG",
+      "total": "7.30"
+    },
+    {
+      "company": "CROSS CHANNEL NETWORK SDN. BHD.",
+      "date": "29/01/2018",
+      "address": "44300 BATANG KALI, SELANGOR",
+      "total": "6.36"
+    },
+    {
+      "company": "CROSS CHANNEL NETWORK SDN. BHD",
+      "date": "31/12/2017",
+      "address": "44300 BATANG KALI, SELANGOR",
+      "total": "7.50"
+    },
+    {
+      "company": "SWC ENTERPRISE SDN BHD",
+      "date": "08/01/2018",
+      "address": "Sekysen 4, Bandar Utama, 44300",
+      "total": "{'cashprice': '10.00', 'changeprice': '2.00', 'creditprice': '0.45', 'totalprice': '8.00'}"
+    },
+    {
+      "company": "LIGHTROOM GALLERY SDN BHD",
+      "date": "20/11/2017",
+      "address": "KLANG SEILANGOR D. E. MALAYSI",
+      "total": "263.02"
+    },
+    {
+      "company": "99 SPEED MART 5/B (S19537-X)",
+      "date": "03/29/2023",
+      "address": "4150 KLANG, SELANGOR",
+      "total": "{'cashprice': '200.00', 'changeprice': '30.20', 'taxprice': '9.61'}"
+    },
+    {
+      "company": "SECURE PARKING CORPORATION S/B",
+      "date": "23/03/18",
+      "address": "Riverwalk Village, Batu 3, Jalan Ipoh, 51200 KL.",
+      "total": "0.94 RM"
+    },
+    {
+      "company": "LIGHTROOM GALLERY SDN BHD",
+      "date": "20/11/2017",
+      "address": "KLANG SEILANGOR D. E. MALAYSI",
+      "total": "263.02"
+    },
+    {
+      "company": "SY LEF",
+      "date": "Mar 22 2009",
+      "address": "Old Town Kopitiam Sdn Bhd (716269-X)",
+      "total": "{'amount': '30.25', 'creditcardprice': '28.53', 'discountprice': '0.00', 'taxprice': '0.00'}"
+    },
+    {
+      "company": "UROKO JAPANESE CUSINERY SDN BHD",
+      "date": "22-1-17",
+      "address": "Jalan 17/544, Selandar, 46400 Petaling Jaya, Selangor",
+      "total": "{'GST': '003-7932 1023/0191', 'Reg No': '001126838272', 'Bill No': '01H-25029', 'Date': '20/03/2018 6:41:02 PM', 'Cashier': 'RESAN', 'Table No': 'S09'}"
+    },
+    {
+      "company": "Ted Heng Statutory & Books",
+      "date": "06/18/2018",
+      "address": "1355, 1 3.96 4.09",
+      "total": "{'cashprice': '13.00', 'changeprice': '1.55', 'taxprice': '3.80', 'gstprice': '25.80'}"
+    },
+    {
+      "company": "ted heng stationery & books",
+      "date": "15/03/2018",
+      "address": "15, Jalan Serangoon, 45600 Bata Berhad",
+      "total": "120.00"
+    },
+    {
+      "company": "teod heng stationery & books",
+      "date": "29/01/2018",
+      "address": "selangor darul ehsan",
+      "total": "0.06"
+    },
+    {
+      "company": "SWC Enterprise Sdn Bhd",
+      "date": "02/01/2018",
+      "address": "Pusat Niaga Ijok Pertamai, 48000 Jokk, Selongor",
+      "total": "{'cashprice': '4.20', 'changeprice': '46.00', 'creditprice': '0.24'}"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "UNIHAKKA INTERNATIONAL SDN BHD",
+      "date": "07 Mar 2018",
+      "address": "12, Jalan Tampo 7/a, Kawasaki Perdianistruk",
+      "total": "{'cash': '0.00', 'change': '0.00'}"
+    },
+    {
+      "company": "UNHAKKA INTERNATIONAL SDN BHD",
+      "date": "13 Mar 2018",
+      "address": "Tampoi 7/4, Kawasaki Periudin",
+      "total": "{'cashprice': '7.10', 'changeprice': '8.25', 'creditprice': '7.70', 'creditprice2': '7.10', 'creditprice3': '1.10', 'creditprice4': '1.10'}"
+    },
+    {
+      "company": "PASAR MINI JIN SENG",
+      "date": "03/03/18",
+      "address": "379, JALAN PERMASA SATO",
+      "total": "33.80"
+    },
+    {
+      "company": "XYZ Company",
+      "date": "11/03/2018",
+      "address": "123 Main Street, Anytown, USA",
+      "total": "49.70"
+    },
+    {
+      "company": "Ronoma",
+      "date": "03/11/2021",
+      "address": "1014 FAZLIN",
+      "total": "{'GST/M': '0.00', 'Amount(RM)': '254.17', 'GST(RM)': '15.25'}"
+    },
+    {
+      "company": "UNIHAKKA INTERNATIONAL SDN BHD",
+      "date": "28 Mar 2018",
+      "address": "Tampo 812000",
+      "total": "{'cash': '8.20', 'change': '0.00'}"
+    },
+    {
+      "company": "YONG TAT HARDWARE TRADING",
+      "date": "03/13/2018",
+      "address": "CASHIER",
+      "total": "{'GST': '0.00', 'RST': '0.00'}"
+    },
+    {
+      "company": "Triple Six Point Enterprise 666",
+      "date": "22-03-2018",
+      "address": "141 Jalan Permata Baru, Bandar Baru Pertamina",
+      "total": "{'price': '10.00', 'discountprice': '0.30', 'totalprice': '22.60'}"
+    },
+    {
+      "company": "UNIHAKKA INTERNATIONAL SDN BHD",
+      "date": "25 Mar 2018",
+      "address": "12, Jalan Tampor 7/4, Kawasan Perindustrian",
+      "total": "{'GST': '0.00', 'Amount': '0.00'}"
+    },
+    {
+      "company": "UNIHAKKA INTERNATIONAL SDN BHD",
+      "date": "20 Mar 2018",
+      "address": "Tampol, 81200 Johor Bahru,Johor",
+      "total": "{'GST': '0.00', 'Amount': '0.00'}"
+    },
+    {
+      "company": "MASAI JOHNOR",
+      "date": "20/03/16",
+      "address": "81750",
+      "total": "00000001429"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "GST SUMMARY",
+      "date": "02/27/2027",
+      "address": "104 SUNQUICK ORN 330ML",
+      "total": "{'GST_SUMMARY_AMOUNT': '5.05', 'GST_SUMMARY_TAX_AMOUNT': '30'}"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "PASARAYA BORONG PINTAR",
+      "date": "09/03/2018",
+      "address": "BR No.: (124525-H",
+      "total": "{'creditcardprice': '10.40', 'taxprice': '0.10', 'etcprice': '0.10'}"
+    },
+    {
+      "company": "PASARAYA BORONG PINTAR",
+      "date": "14/03/2018",
+      "address": "SDN BHD",
+      "total": "0.90"
+    },
+    {
+      "company": "Restaurant Jiawei",
+      "date": "23/2/2018",
+      "address": "Jiawei House, 00269 3074-K",
+      "total": "RM 110.00"
+    },
+    {
+      "company": "PASARAYA BORONG PINTAR",
+      "date": "30/01/2018",
+      "address": "SDN BHD",
+      "total": "{'creditcardprice': '124525-H', 'taxprice': '124525-H', 'etc': '124525-H'}"
+    },
+    {
+      "company": "PASARAYA BORONG PINTAR SDN BHD",
+      "date": "14/02/2018",
+      "address": "016-5498845, GST No.:",
+      "total": "{'cashier': '2', 'unitprice': '1.45', 'taxprice': '1.45', 'etc': '1.45'}"
+    },
+    {
+      "company": "Popular Book Co. (M) SDN BHD",
+      "date": "23/12/17",
+      "address": "Tel: 03-91222435/437",
+      "total": "140.65"
+    },
+    {
+      "company": "Popular Book (M) SDN BHD",
+      "date": "25 AUG - 3 SEPT 2017",
+      "address": "Sunway Pyramid Convention Centre",
+      "total": "{'creditcardprice': '5.60 T', 'discountprice': '-0.56', 'changeprice': '4.95', 'cashprice': '4'}"
+    },
+    {
+      "company": "EVERGREEN LIGHT SON BHD",
+      "date": "10/07/2017",
+      "address": "47100 Puchong, BELANGSOR",
+      "total": "{'nm': 'PROEMK 10W LED STICK', 'cnt': '1', 'price': '52.84', 'etc': '52.84'}"
+    },
+    {
+      "company": "HON HWA Hardware Trading",
+      "date": "26/04/2017",
+      "address": "56100 CHERAS, KUUALA LUMPUR, +603-9130 2672",
+      "total": "7.20"
+    },
+    {
+      "company": "HON HWA Hardware Trading",
+      "date": "56100 CHBERAS, KUALA LUMPUR",
+      "address": "56100 CHBERAS, KUALA LUMPUR",
+      "total": "19.60"
+    },
+    {
+      "company": "HON HWA Hardware Trading",
+      "date": "05/01/2017",
+      "address": "56100 CHERAS, KUALA LUMPUR, +603-9130 2672",
+      "total": "{'creditcardprice': '0.00', 'discountprice': '0.00', 'etcprice': '5.00'}"
+    },
+    {
+      "company": "EVERGREEN LIGHT SDN BHD",
+      "date": "7/11/2017",
+      "address": "47100 PUCHONG, BELANGROR",
+      "total": "{'tax_price': '12.26', 'etc': '24.525'}"
+    },
+    {
+      "company": "VIVOPAC MARKETING Sdn Bhd (1070687-M)",
+      "date": "17/01/2017",
+      "address": "14 Jalan Manis 4 Taman Segar 56100 KL",
+      "total": "{'cashprice': '51.65', 'changeprice': '5.00', 'taxprice': '2.64', 'totalprice': '44.00', 'gstprice': '2.64', 'vatprice': '44.00'}"
+    },
+    {
+      "company": "VIVOPAC MARKETING SON BHD (1070687-M)",
+      "date": "13/09/2017 01:13:09",
+      "address": "14 Jalan Manis 4 Taman Segar 56100 KL",
+      "total": "{'creditcardprice': '0.04mm', 'discountprice': '15.0000', 'taxprice': '30.0000', 'etcprice': '30.0000'}"
+    },
+    {
+      "company": "FY Eagle Enterprises",
+      "date": "07/12/2017",
+      "address": "No. 42, Jalan PKS 14/11, Taman Perindustrian Bukit Serdang, 43300 Serek, Kembangan, Selangor",
+      "total": "{'creditcardprice': '10.00', 'taxprice': '0.57', 'discountprice': '0.00', 'etcprice': '0.57'}"
+    },
+    {
+      "company": "MODERN DEPOT SDN BHD",
+      "date": "04/12/2016",
+      "address": "950345-T",
+      "total": "8.49"
+    },
+    {
+      "company": "CHOP YEW LIAN",
+      "date": "23/03/17",
+      "address": "LOT PT 5121, Per. Klang, Sek. 27",
+      "total": "{'cash': 'RM 30.00', 'total gross': 'RM 30.00'}"
+    },
+    {
+      "company": "AEON CO. (M) BHD (126926-H)",
+      "date": "14/03/2018",
+      "address": "CHERAS, 55100 KUALA LUMPUR",
+      "total": "3009 006 0060035"
+    },
+    {
+      "company": "ECONSAVE",
+      "date": "22/03/18",
+      "address": "Lot G01, KL Festival City, No. 67 Jln Jbu Kota Tm Danau Kota, KL",
+      "total": "{'creditcardprice': '4.20', 'taxprice': '0.29', 'etc': '0.29'}"
+    },
+    {
+      "company": "Popular Book Co. (M) SDN BHD",
+      "date": "14/03/18",
+      "address": "56000 Kuala Lumpur, Malaysia",
+      "total": "{'RM Incl. of GST': '7.95', 'cash price': '-10.00', 'change price': '2.05'}"
+    },
+    {
+      "company": "PREMIO STATIONERY SDN BHD",
+      "date": "20/03/2018",
+      "address": "47300 Petaling Jaya, Selangor",
+      "total": "13.40"
+    },
+    {
+      "company": "LIM SENG THO HARDWARE TRADING",
+      "date": "3 18 02 2013",
+      "address": "No 7, Simpang Off Batu Village, Jalan Ipoh Batu 5, 51200 Kuala Lumpur",
+      "total": "0.59"
+    },
+    {
+      "company": "LIM SENG THO HARDWARE TRADING",
+      "date": "02/02/2018",
+      "address": "No 7. Simpang Off Batu Village, Jalan Ipoh Batu 5, 51200 Kuala Lumpur, Malaysia",
+      "total": "{'creditcardprice': '7.00', 'changeprice': '0.00', 'taxprice': '0.00', 'serviceprice': '0.70', 'etcprice': '0.70'}"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "KOH SENG HARDWARE",
+      "date": "01/02/2018",
+      "address": "150265-P",
+      "total": "0.00"
+    },
+    {
+      "company": "LIM SENG THO HARDWARE TRADING",
+      "date": "09/02/2018",
+      "address": "No 7, Simpang Off Batu Village, Jalan Ipoh Batu 5. 51200 Kuala Lumpur, MALAYSIA",
+      "total": "8.40"
+    },
+    {
+      "company": "KOH SENG HARDWARE",
+      "date": "3/18/2012",
+      "address": "1502665-P",
+      "total": "48.00"
+    },
+    {
+      "company": "Super Terminal Sdn Bhd",
+      "date": "20/01/2018",
+      "address": "52100 Kuala Lumpur",
+      "total": "{'cashprice': '132.50', 'changeprice': '0.00', 'taxprice': '7.50'}"
+    },
+    {
+      "company": "SYARIKAT PERNIGAAGAN GIN KEE",
+      "date": "31/10/2018",
+      "address": "SETAPAK, 53200, KULA LUMPUR",
+      "total": "{'cashprice': '81109-A', 'creditprice': '81109-A', 'taxprice': '0.00', 'etcprice': '0.00'}"
+    },
+    {
+      "company": "SYARIKAT PERNGAIAAN GIN KEE",
+      "date": "31 8 01 01",
+      "address": "SETAPAK, 53200, KUALA LUMPUR, 03-40210276",
+      "total": "190.80"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "SYARIKAT PERNIGAAAN GIN KEE",
+      "date": "3 18 01 017",
+      "address": "NO 290, JALAN AIR PANAS, SETAPAK, 53200, KUALA LUMPUR. TEL : 03-40210276 GST ID : 000750673920",
+      "total": "68.00"
+    },
+    {
+      "company": "SYARIKAT PERNIGAA GIN KEE",
+      "date": "318.01.01",
+      "address": "53200, KUALA LUMPUR, 53200, KUALA PASIR, 03-40210276",
+      "total": "89.04"
+    },
+    {
+      "company": "SYARIKAT PERNIGAAAN GIN KEE",
+      "date": "3 18 01 0.17",
+      "address": "81109-A",
+      "total": "{'cashprice': '94.34', 'taxprice': '5.34', 'changeprice': '0.00'}"
+    },
+    {
+      "company": "SYARIKAT PERNIGAAAAN GIN KEE",
+      "date": "31801017",
+      "address": "SETAPAK, 53200, KUALA LUMPUR, TEL: 03-40210276",
+      "total": "10.60"
+    },
+    {
+      "company": "SYARIKAT PERNIGAAAAN GIN KEE",
+      "date": "3 18 01 017",
+      "address": "53200, KULALA LUMPUR",
+      "total": "10.50"
+    },
+    {
+      "company": "SYARIKAT PERNIGAAAAN GIN KEE",
+      "date": "01/02/2018",
+      "address": "SETAPAK, 53200, KUALA LUMPUR",
+      "total": "36.04"
+    },
+    {
+      "company": "SYARIKAT PERNIGAAAAN GIN KEE",
+      "date": "31/01/2018",
+      "address": "SETAPAK, 53200, KULA LUMPUR",
+      "total": "{'creditcardprice': '96.00', 'taxprice': '5.76', 'discountprice': '0.00', 'etcprice': '0.00'}"
+    },
+    {
+      "company": "SYARIKAT PERNIGAAAAN GIN KEE",
+      "date": "31802016",
+      "address": "SETAPAK, 53200, KUALA LUMPUR, TEL 03-40210276",
+      "total": "22.26"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "Western Eastern Stationery Sdn Bhd",
+      "date": "26-02-2018",
+      "address": "{'street': 'JLN SULTAN AZLAN', 'kuala lumpur': {'tel': '03-4043 7678', 'tax_invoice': 'I'}}",
+      "total": ""
+    },
+    {
+      "company": "Western Eastern Stationery Sdn Bhd",
+      "date": "26-02-2018",
+      "address": "{'street': 'JLN SULTAN AZLAN', 'kuala lumpur': {'tel': '03-4043 7678', 'tax_invoice': 'I'}}",
+      "total": ""
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "ASO ELECTRICAL TRADING SDN BHD",
+      "date": "13/10/2017",
+      "address": "1000131-K",
+      "total": "{'tax_code': '6', 'tax_percentage': '6', 'amount': '89.26', 'cashprice': '5.36'}"
+    },
+    {
+      "company": "EDAI BUKU NEW ACHIEVERS",
+      "date": "15/09/2017",
+      "address": "{'street': '12 & 14, Jalan Injang', 'city': 'Jalan Injang', 'postal_code': 'SA03444-K', 'postal_code_indicator': 'CO'}",
+      "total": "{'creditcardprice': '603-51910643', 'discountprice': '0.00', 'taxprice': '2.72', 'etcprice': '48.00', 'etcprice_indicator': 'M'}"
+    },
+    {
+      "company": "TS TOOLS HARDWARE, A MACHINERY SERV SCO",
+      "date": "21/03/2018",
+      "address": "11514-P, 59, JALAN BANDAR SATU, PUSAT BANDAR Puchong, 47160, PUCHONG, SELANGOR",
+      "total": "000761802752"
+    },
+    {
+      "company": "Restoran Wan Sheng",
+      "date": "17-03-2018",
+      "address": "43200 Cheras, Selangor",
+      "total": "{'GST_SUMMARY': {'@6': '9.07'}, 'AMOUNT(RM)': '0.53'}"
+    },
+    {
+      "company": "Restoran Wan Sheng",
+      "date": "23-03-2018",
+      "address": "43200 Cheras, Selangor",
+      "total": "{'cashprice': '6.70', 'taxprice': '0.37', 'serviceprice': '6.33'}"
+    },
+    {
+      "company": "Restoran Wan Sheng",
+      "date": "21-03-2018",
+      "address": "Seksyen 9, Bandar Mahkota Cheras, Selangor 43200",
+      "total": "{'GST_REG_NO': '001335785720', 'INV_NO': '1054250', 'cashier': 'Thandar', 'date': '21-03-2018', 'total_price': '4.80 SR', 'tax_price': '0.40 SR', 'gst_price': '0.26 SR'}"
+    },
+    {
+      "company": "Restoran Wan Sheng",
+      "date": "002043319-W",
+      "address": "Jalan Temenggung 19/9, Seksyen 9, Bandar Mahkota Cheras, 43200 Cheras, Selangor",
+      "total": "{'tax_price': '0.20 SR', 'total_price': '6.81'}"
+    },
+    {
+      "company": "Restoran Wan Sheng",
+      "date": "07-03-2018",
+      "address": "43200 Cheras, Selangor",
+      "total": "{'cashprice': '4.54', 'taxprice': '0.26'}"
+    },
+    {
+      "company": "Kaison Furnishing SDN BHD",
+      "date": "3-17-08",
+      "address": "Lot No. L3-012, Level 3, Mytown Shopping Centre, No. 6, Jalan Cochrane, Seksyen 90, 55100 Kuala Lumpur, Co. Reg No. (761834-D) GST Reg No. 001813975040",
+      "total": "18.70"
+    },
+    {
+      "company": "Taram Bervley",
+      "date": "26-03-19",
+      "address": "41150 Klang, Selangor",
+      "total": "{'INVOICE_NO': '18348/1022/10058', 'TIMESTAMP': '10:23PM', 'DESCRIPTION': '1330-JLN KEANGA', 'NO': '567234', 'CST_NO': '000181747712', 'CHANGE_RMS': '20.00'}"
+    },
+    {
+      "company": "AA PHARMACY",
+      "date": "22/01/2018",
+      "address": "1188096-W",
+      "total": "46.20"
+    },
+    {
+      "company": "Rockyu Yakiniku",
+      "date": "19/02/2018",
+      "address": "LEBUH BANDAR UTAMA, 47800 PETALING JAYA",
+      "total": "{'cash': '181.55', 'change': '20.00'}"
+    },
+    {
+      "company": "ALI BABA INTERNATIONAL SDN BHD",
+      "date": "19-02-2018",
+      "address": "Lot 26-27, Level G2, Jin Dutamas 1, Solaris Dutamas, 50480 KL.",
+      "total": "{'GST_sum': '23.80', 'tax_sum': '0.01'}"
+    },
+    {
+      "company": "SEN LEE HEONG RESTAURANT",
+      "date": "12-01-2018",
+      "address": "SEGAMBUT BAHAGIA, 51200, K. LUMPUL",
+      "total": "77.40"
+    },
+    {
+      "company": "POTTERS GARDEN SDN BHD",
+      "date": "04/01/2018",
+      "address": "Batu 11, Sg Buloh, 47000 Selangor",
+      "total": "{'cashprice': 'RM 39.80', 'changeprice': '0.20', 'taxprice': '37.54'}"
+    },
+    {
+      "company": "HENG KEE DELIGHTS BAK KUT TEH",
+      "date": "04/01/2018",
+      "address": "BANDAR MENJAJALARA",
+      "total": "RM 42.00"
+    },
+    {
+      "company": "green lane pharmacy son bhd",
+      "date": "18/01/2018",
+      "address": "52100 Kepong, KL",
+      "total": "34.80"
+    },
+    {
+      "company": "MR. D.I.Y. (Kuchai) Sdn Bhd",
+      "date": "19-03-18",
+      "address": "KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SEBELANGOR (GST ID No: 000473792512)",
+      "total": "RM 11.90"
+    },
+    {
+      "company": "Gerbang Alaf Restaurants Sdn Bhd",
+      "date": "11/03/2018",
+      "address": "Selangor",
+      "total": "{'creditcardprice': '4.00', 'taxprice': '0.48', 'etc': '0.48'}"
+    },
+    {
+      "company": "SAINT HEART PASTRY",
+      "date": "03-06-2018",
+      "address": "TMN SELAYANG JAYA, 68100 BATU CAVES, SELANGOR",
+      "total": "{'cashprice': '8.20', 'serviceprice': '0.00', 'changeprice': '0.00'}"
+    },
+    {
+      "company": "KEDAI PAPAN YEW CHUAN",
+      "date": "21/03/2018",
+      "address": "LOT 276 JALAN BANTING",
+      "total": "{'cashprice': '68.90', 'changeprice': '0.00', 'taxprice': '3.90'}"
+    },
+    {
+      "company": "KEDAI PAPAN YEW CHUAN",
+      "date": "21/03/2018",
+      "address": "LOT 276 JALAN BANTING",
+      "total": "{'cashprice': '144.16', 'changeprice': '0.00', 'taxprice': '136.00'}"
+    },
+    {
+      "company": "KEDAI PAPAN YEW CHUAN",
+      "date": "07/03/2018",
+      "address": "43800 DENGKIL SELANGOR",
+      "total": "{'GST_SUMMARY': {'GST_ID': '000781500416', 'SUM': '86.00'}, 'TAX_SUM': '5.16'}"
+    },
+    {
+      "company": "KEDA PANYEY CH JAN",
+      "date": "08/03/2018",
+      "address": "J558",
+      "total": "312.70"
+    },
+    {
+      "company": "KEDAI PAPAN YEW CHUAN",
+      "date": "16/03/2018",
+      "address": "43800 DENGKIL, SELANGOR",
+      "total": "{'creditcardprice': '128.00', 'discountprice': '0.00', 'taxprice': '0.00', 'changeprice': '14.32'}"
+    },
+    {
+      "company": "KEDAI PAPAN YEW CHUAN",
+      "date": "12/03/2018",
+      "address": "43800 DENGKIL, SELANGOR",
+      "total": "{'GST_SUMMARY': {'GST_ID': '000781500416', 'SUM': '287.50'}, 'cashprice': {'cashprice_price': '267.50', 'cashprice_amount': '16.05'}, 'taxprice': {'taxprice_price': '267.50', 'taxprice_amount': '16.05'}}"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "KEDAI PAPAN YEW CHUAN",
+      "date": "10/03/2018",
+      "address": "43800 DENGKI, SELANGOR",
+      "total": "{'creditcardprice': '80.00', 'discountprice': '0.00', 'taxprice': '4.80', 'changeprice': '0.00'}"
+    },
+    {
+      "company": "Mymidin Subang Bestari",
+      "date": "15/01/2018",
+      "address": "Selangor Darul Ehsan",
+      "total": "5.50"
+    },
+    {
+      "company": "Yong Cen Enterprise",
+      "date": "06/01/2018",
+      "address": "9, Jalan Subang Jasa 3, 40150 Shah Alam, Selangor",
+      "total": "65.70"
+    },
+    {
+      "company": "MUN HENG ELECTRICAL & HARDWARE SUPPLY",
+      "date": "01/02/2018",
+      "address": "Jalan US/ET, Gander Pingyuan Subang, Sunga Adu, 4015 Shah Alam, Selangor",
+      "total": "{'GST_SUMMARY': '0.40', 'GST_AMOUNT': '0.40', 'GST_AMOUNT_TOTAL': '0.60'}"
+    },
+    {
+      "company": "URBAN IDEA SDN BHD (417940-M)",
+      "date": "03-18-2018",
+      "address": "Jalan SS6/5A, Pusat Bandar KELANA JAYA, 47/301 PETALING Jaya, SELANGOR, Malaysia",
+      "total": "{'EMD': 'RM11.90', '6': 'RM11.90', '16oz Fountain Drink': 'RM11.90', 'Cookies': 'RM0.90'}"
+    },
+    {
+      "company": "99 SPEED MART S/B (519537-X)",
+      "date": "04:06PM",
+      "address": "LOT P.KT. 2011, JALAN ANGSA, TAMAN BERKELEY",
+      "total": "570842"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "SP DSN BHD",
+      "date": "03-07-85",
+      "address": "40150 Shat Ab, Segior D.E.",
+      "total": "{'price': '143.70', 'tax_price': '143.70', 'etc': '185.00'}"
+    },
+    {
+      "company": "PANA JAYA ENTERPRISE",
+      "date": "21-03-2018",
+      "address": "SEK U. 40150 SHAH ALAM SELANGOR",
+      "total": "{'cashprice': '105.00', 'creditprice': '105.00'}"
+    },
+    {
+      "company": "super seven cash & carry sdn bhd",
+      "date": "590150-A",
+      "address": "PASARAYA BORONG SUPER SEVEN",
+      "total": "{'creditcardprice': '590150-A', 'taxprice': '00000000000000', 'etc': '0.00'}"
+    },
+    {
+      "company": "Segi Cash & Carry Sn. Bhd.",
+      "date": "12 Mar 2018",
+      "address": "Pt17920 Sek U9, Shah Ala",
+      "total": "145.10"
+    },
+    {
+      "company": "SWC Enterprise Sdn BHD",
+      "date": "28-G, Ground Floor",
+      "address": "Jalan Dinar A U3/A, Tinn Subbang Perdana, 40150",
+      "total": "{'cashprice': '4.00', 'gstprice': '0.22', 'taxprice': '0.22'}"
+    },
+    {
+      "company": "Guardian Health And Beauty Sdn Bhd",
+      "date": "09/03/2018",
+      "address": "651 & 632, 6th Floor, 101 Mall, Hamar Puchora Gaya",
+      "total": "{'cashprice': 'RM 9.95', 'changeprice': 'RM 0.56', 'creditprice': 'RM 9.95'}"
+    },
+    {
+      "company": "TSH'POWER HARDWARE",
+      "date": "13-1, Jalan Petaling Jaya, Selangor",
+      "address": "47810, Petaling Jaya, Selangor",
+      "total": "{'cash_received': '50.00', 'change': '25.50', 'change_sum': '23.11', 'tax_amount': '1.39', 'tax_sum': '6.00%'}"
+    },
+    {
+      "company": "MR. D.Y. (M) SDN BHD",
+      "date": "31803041",
+      "address": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR (GST ID No: 000306020352)",
+      "total": "RM 6.60"
+    },
+    {
+      "company": "MR. D.I.Y. (M) SDN BHD",
+      "date": "21-03-18",
+      "address": "KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERT KEMANGAN, SELANGOR (GST ID No: 00306020352)",
+      "total": "{'cashprice': 'RM 21.50', 'changeprice': 'RM 28.50', 'creditprice': 'RM 1.22'}"
+    },
+    {
+      "company": "MR. D.I.Y. (M) SDN BHD",
+      "date": "31803049",
+      "address": "KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR (GST ID : 000306020352)",
+      "total": "{'cashprice': 'RM 6.20', 'changeprice': 'RM 93.80', 'etcprice': 'RM 0.35'}"
+    },
+    {
+      "company": "SUPER SEVEN CASH & CARRY Sdn Bhd",
+      "date": "27-01-2018",
+      "address": "KL KACANGGORENG 300G",
+      "total": "RM59.00"
+    },
+    {
+      "company": "Yong Cen Enterprise",
+      "date": "06/01/2018",
+      "address": "40150 Shah Alam, Selangor",
+      "total": "65.70"
+    },
+    {
+      "company": "Segi Cash & Carry Sdn. Bhd",
+      "date": "06/Jan/2018",
+      "address": "Pt17920 Sek U9, Shah Alam",
+      "total": "674.00"
+    },
+    {
+      "company": "Super Seven Cash & Carry Son 3HD",
+      "date": "10/02/2018",
+      "address": "123 Main Street, Anytown, USA",
+      "total": "42.10"
+    },
+    {
+      "company": "Disposable",
+      "date": "25-01-2018",
+      "address": "PANA JAYA ENTERPRISE",
+      "total": "205.50"
+    },
+    {
+      "company": "Taman Berkeley",
+      "date": "28/01/18",
+      "address": "41150 Klang, Selangor",
+      "total": "98.90"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "JUWITA WEDDINGS (366310-U)",
+      "date": "28-Feb-2018",
+      "address": "LOT G18 & G19, JNL 8/27A",
+      "total": "{'cash': '4.10', 'creditcard': '0.00', 'tax': '0.23', 'sum': '3.87'}"
+    },
+    {
+      "company": "IMAGE PRINTED (M) SDN BHD",
+      "date": "23/02/2018",
+      "address": "53300 Kuala Lumpur",
+      "total": "{'creditcardprice': '7.20', 'taxprice': '0.43', 'etcprice': '0.02', 'etcsubprice': '0.02', 'etcetcprice': '0.02'}"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "SATU KAMPUNG ENTERPRISE SDN BHD",
+      "date": "13/01/2011",
+      "address": "43300 SERI KEMBANGAN, SELANGOR",
+      "total": "{'cashprice': '63.00', 'discountprice': '0.00', 'taxprice': '3.57', 'etcprice': '0.00'}"
+    },
+    {
+      "company": "SATU KAMPUNG ENTERPRISE SON BHD",
+      "date": "13/01/2019",
+      "address": "Jalan Putra Pertamai, 43300 SERI KEMANGAN, SELANGOR",
+      "total": "18.87"
+    },
+    {
+      "company": "PRINT EXPERT SDN BHD",
+      "date": "19/03/2018",
+      "address": "{'street': '400000 SHAH ALAM, SELANGOR', 'city': 'JALAN BUNGA TANJONG', 'postal_code': '400000'}",
+      "total": "{'creditcardprice': '0000050251', 'discountprice': '000', 'serviceprice': '226.60', 'taxprice': '213.78', 'etcprice': '226.60'}"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "PRINT EXPERT SDN BHD",
+      "date": "2/16",
+      "address": "Jalan Bungan Tangjong",
+      "total": "112.80"
+    },
+    {
+      "company": "Popular Book (M) SDN BHD",
+      "date": "05/03/18",
+      "address": "No. 8, Jalan 7/118B, Desa Tun Razak 560000 Kuala Lumpur, Malaysia",
+      "total": "{'creditcardprice': '30.50', 'changeprice': '20.00', 'taxprice': '1.50', 'etcprice': '20.00'}"
+    },
+    {
+      "company": "Popular Book Co. (M) SDN BHD",
+      "date": "08/03/18",
+      "address": "S10000 Kuala Lumpur, Malaysia",
+      "total": "{'creditcardprice': '5.99', 'discountprice': '30.70', 'taxprice': '1.74', 'etcprice': '1.74'}"
+    },
+    {
+      "company": "Popular Book (M) SDN BHD",
+      "date": "06/03/18",
+      "address": "S10010180431",
+      "total": "{'creditcardprice': '12.15', 'discountprice': '-1.35', 'taxprice': '0.69', 'etcprice': '1.35'}"
+    },
+    {
+      "company": "AEON DAISHO SHAH ALAM",
+      "date": "21/03/2018",
+      "address": "AEON CO. (M) BHD (126926-H)",
+      "total": "{'cashprice': '70.10', 'changeprice': '5.00', 'creditprice': '65.10', 'subtotalprice': '65.10'}"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "Burger King",
+      "date": "2018/03/27",
+      "address": "Satellite Building, Kuala Lumpur, Malaysia",
+      "total": "{'cashprice': 'RM70.00', 'changeprice': 'RM6.10', 'creditprice': 'RM3.62'}"
+    },
+    {
+      "company": "Dream Arts",
+      "date": "29/03/2018",
+      "address": "LEVEL 2, VIVACITY MEGAMALL, JALAN WAN ALIWI, 93350 KUCHING",
+      "total": "{'creditcardprice': '15.00', 'discountprice': '0.00', 'taxprice': '0.85', 'etcprice': '0.00'}"
+    },
+    {
+      "company": "Guardian Health and Beauty Sdn Bhd",
+      "date": "01/01/2018",
+      "address": "Sdn Bhd",
+      "total": "{'rm': '22.44', 's': '22.45', 'etc': '0.01'}"
+    },
+    {
+      "company": "Let Restaurant",
+      "date": "03/02/2017",
+      "address": "40150 Shah Alam, Selangor",
+      "total": "68.90"
+    },
+    {
+      "company": "KING'S CONFECTIONERY 5/B 273500-U (GKJ)",
+      "date": "07/02/17",
+      "address": "LOT NO. G23, GIANT KELANA JAYA LOT PT244, JLIN PERBANDARAN S566/4 PUSAT BANDAR KELANA JAYA, PETALING",
+      "total": "0.56"
+    },
+    {
+      "company": "KING'S CONFECTIONERY S/B 273500-U (KJ1)",
+      "date": "03-07-2020",
+      "address": "SELANGOR U.E.",
+      "total": "{'change': '2.80', 'creditcardprice': '7.20', 'taxprice': '0.00', 'etcprice': '0.41'}"
+    },
+    {
+      "company": "LIVE9 PHARMACY SON HSD",
+      "date": "31/03/2017",
+      "address": "103D21FR",
+      "total": "0.69"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "SEMBOYAN TEGAS SDN BHD",
+      "date": "06-03-2018",
+      "address": "Taman Subang Jasa, Baru Subang, Datu Elson",
+      "total": "{'cashprice': '52.00', 'changeprice': '25.00', 'taxprice': '0.00', 'serviceprice': '0.00', 'etcprice': '0.00'}"
+    },
+    {
+      "company": "BEMED (SPI SDN. BHD. Jalan Olinar G U3/06, 40150 Shah Alam, Selangor D.E.",
+      "date": "02/02/2017",
+      "address": "40150 Shah Alam, Selangor D.E.",
+      "total": "{'subtotal': '105.00', 'tax_price': '165.00', 'total_price': '165.00', 'etc': '8.34'}"
+    },
+    {
+      "company": "YONG CEN ENTERPRISE",
+      "date": "01-04-2020",
+      "address": "40150 Shah Alam Selangor",
+      "total": "50.10"
+    },
+    {
+      "company": "TM.Samy",
+      "date": "7",
+      "address": "M:machine [003]",
+      "total": ""
+    },
+    {
+      "company": "The Cut Steakhouse & Burger's",
+      "date": "01-01-2017",
+      "address": "Lot L1-4 Star Avenue Mall",
+      "total": "{'tax_price': '4', 'cashprice': '43.50', 'etc': '6.00'}"
+    },
+    {
+      "company": "MEI LET RESTAURANT",
+      "date": "03-07-2017",
+      "address": "40150 Shah Alam, Selangor",
+      "total": "{'cashprice': '56.00', 'changeprice': '40.65', 'taxprice': '3.36'}"
+    },
+    {
+      "company": "S&Y Stationery",
+      "date": "09-Jan-2017",
+      "address": "40150 Shah Alam, Selangor",
+      "total": "{'GST_sum': '1.40', 'GST_tax': '0.08', 'cash_change': '48.60', 'total_amount': '1.40'}"
+    },
+    {
+      "company": "BEMED (SP1 SDN BHD)",
+      "date": "20/Jan/2017",
+      "address": "No. 49, Jalan Omar G U3/G, Suaiang Perdana, 40150 Shah Alam, Selangor D.E.",
+      "total": "{'ALPHA LIPID LIFE LINE 450WG 450G': '1 184810', 'DR PIVE VEGETARIAN HIGH FERA 155V413G': '1 282930', '2 Type': '2'}"
+    },
+    {
+      "company": "BIRO PETROLEUM",
+      "date": "11/11/2016",
+      "address": "KELANA JAYA, 47301 PETALING SELANGOR DARUL EHSAN",
+      "total": "437"
+    },
+    {
+      "company": "Segi Cash & Carry Sdn. Bhd",
+      "date": "06 Feb 2017",
+      "address": "40150 Shah Alam, Selangor Darul Ehsan",
+      "total": "{'incl.': '26.98', 'subtotal': '0.02', 'changeprice': '23.00', 'totalprice': '27.00', 'taxprice': '1.53'}"
+    },
+    {
+      "company": "C W KHOO HARDWARE SDN BHD",
+      "date": "26/04/2018",
+      "address": "KAWASAN PERINDUSTRIAN BUKIT SERDANG,",
+      "total": "{'creditcardprice': '80.00', 'changeprice': '84.80', 'creditprice': '84.80', 'gstprice': '80.00', 'srprice': '80.00'}"
+    },
+    {
+      "company": "CHA FOR TEA",
+      "date": "19/04/2018",
+      "address": "DATANAP SUNWAY, 47810 KOTA DAMANSARA, SELANGER",
+      "total": "{'creditcardprice': 'RM46.25', 'discountprice': 'RM46.25', 'taxprice': 'RM2.62', 'etcprice': 'RM2.62'}"
+    },
+    {
+      "company": "PLAT MART",
+      "date": "22/04/2018",
+      "address": "88, JALAN LUMPUR, OFF JALAN PUTRA, 05100",
+      "total": "{'GST ID': '01034461184', 'Receipt No': '31076707', 'Print On': '22/04/2018 13:44:23'}"
+    },
+    {
+      "company": "C W KHOO HARDWARE SDN BHD",
+      "date": "31/03/2018",
+      "address": "KAWASAN PERINDIAN BUKIT SERDANG,",
+      "total": "{'creditcardprice': '0.83', 'changeprice': '0.35', 'creditprice': '13.80', 'totalprice': '14.63'}"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "BEMED (SP) SON. BHD.",
+      "date": "03-07-85",
+      "address": "49, Jalan Dinar G U3/G, Subang Perdana, 40150 Shah Ali, Selangor D.E.",
+      "total": "{'cashprice': '67978725142', 'cashprice_sub': '01/01/2017 01:25:02', 'subprice': '165.00', 'taxprice': '165.00', 'subtotalprice': '165.00'}"
+    },
+    {
+      "company": "AMANO MALAYSIA SONB HBD (682288-V)",
+      "date": "12 JAN 2017",
+      "address": "TEMASYA INDUSTRIAL PARK",
+      "total": "RM 3.00"
+    },
+    {
+      "company": "AMANO MALAYSIA SON BHD",
+      "date": "30/04/2017",
+      "address": "TEMASYA INDUSTRIAL PARK",
+      "total": "RM.100"
+    },
+    {
+      "company": "your order number is",
+      "date": "16/03/2017",
+      "address": "Level 6, Bangunan TH, 400 Petaling Jaya, Jalan No.3, Selangor",
+      "total": "{'invoice_number': 'INV-00178020001', 'items_cnt': '1', 'unitprice': '47.15', 'discount_price': '47.15', 'etc': ['1 Coke', '1 L Fries', '1 L Cheese Sauce', '1 L French Cheese Sauce', '1 L Honey Mustard Sauce', '1 L Coke'], 'total_price': '47.15'}"
+    },
+    {
+      "company": "Segoi Cash & Carry Sdn. Bhd.",
+      "date": "05/04/2021",
+      "address": "PKT, Shah Alam",
+      "total": "83.55"
+    },
+    {
+      "company": "KING'S CONFECTIONERY",
+      "date": "21/05/17",
+      "address": "47301 PETALING JAYA",
+      "total": "30.50"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "KING'S CONFECTIONERY S/B 273500-U (JJ)",
+      "date": "01/10/2017",
+      "address": "3425, Gr. Floor Jln, Jinjang Utarra, 52100 K.L.",
+      "total": "30.00"
+    },
+    {
+      "company": "Restoran Wan SHF",
+      "date": "29-09-2017",
+      "address": "43200 Cheras, Selangor",
+      "total": "{'GST': {'reg_no': '001335787520', 'nm': 'INV No. 784997'}, 'cashprice': {'price': '12.00', 'unitprice': '72.00', 'discountprice': '92.40', 'taxprice': '15.40'}}"
+    },
+    {
+      "company": "Aneka Intertrade Marketing Sdn Bhd",
+      "date": "23-80",
+      "address": "Selangor Darul Ehsan, Malaysia",
+      "total": "{'creditcardprice': '50.80', 'changeprice': '27.00', 'taxprice': '1.35', 'etcprice': '0.00'}"
+    },
+    {
+      "company": "Bay Sell Trade Sdn Bhd.",
+      "date": "04/02/2017",
+      "address": "604412-X",
+      "total": "{'creditcardprice': '25.32', 'taxprice': '1.52'}"
+    },
+    {
+      "company": "TAMAN BERKELEY",
+      "date": "07-02-17",
+      "address": "41150 KLANG, SELANGOR",
+      "total": "{'GST No.': '00018174712', 'INVOICE NO': '17936/102/10275', 'Rounding Adjustment': '37.45', 'Credit': '37.45', 'CHANGE': '0.00'}"
+    },
+    {
+      "company": "B & BEST RESTAURANT",
+      "date": "19/04/2017",
+      "address": "SELANGOR DARUL EHSAN",
+      "total": "14.85"
+    },
+    {
+      "company": "UNIHAKKA INTERNATIONAL SDN BHD",
+      "date": "05 Apr 2018",
+      "address": "Tampoli, 81200 Johor Bahru, HJK",
+      "total": "{'amount': '4.40', 'add': 'SR 100000001-4.0'}"
+    },
+    {
+      "company": "UNIHAKKA INTERNATIONAL SDN BHD",
+      "date": "04 Apr 2018",
+      "address": "12, Jalan Tampoi 7/4, Kawasan Perindustrian, Tampoi 81200 Bahru, Johor Bahru, 0814004027103",
+      "total": "{'cash': '7.60', 'change': '0.00', 'gst_sum': '0.43', 'tax_sum': '0.43'}"
+    },
+    {
+      "company": "UNHAKKA INTERNATIONAL SDN BHD",
+      "date": "06 Apr 2018",
+      "address": "Tampoli, 81200 Jawa Perindan, Bahar",
+      "total": "{'cashprice': '7.60', 'changeprice': '0.00', 'gstprice': '0.43', 'gstsum': '0.00'}"
+    },
+    {
+      "company": "BHpetrol Permas Jaya 2",
+      "date": "03-04-2018",
+      "address": "Jalan Pernas 10/10",
+      "total": "{'price': '50.00', 'cashprice': 'RM 50.00'}"
+    },
+    {
+      "company": "The GeoVenture",
+      "date": "6/4/2018",
+      "address": "The GeoVenture, 1122485-W, Waterfront, Seafront, Berjaya Waterfront, Sultan, Jalan Ibrahim Sultan, Stellar Lart, Johor, Johor",
+      "total": "RM 80.300"
+    },
+    {
+      "company": "UNIHAKKA INTERNATIONAL SDN BHD",
+      "date": "14 Apr 2018",
+      "address": "Tampol, 81200 Johor Bahru,Johor",
+      "total": "{'cashprice': '8.00', 'changeprice': '0.00', 'taxprice': '8.40', 'gstprice': '8.40', 'gstreg': 'GST REG #000651659584'}"
+    },
+    {
+      "company": "AEON CO. (M) HBD (128296-H)",
+      "date": "30/04/2018",
+      "address": "3RD FLR, Aeon Taman MALURI SC",
+      "total": "{'sub-total': '50.92', 'total_sales_incl': '50.92', 'total_rounding_adjust': '-0.02', 'total_after_adjust_incl': '50.90', 'vISA': '50.90', 'acc_number': '428323***1296'}"
+    },
+    {
+      "company": "Triple Six Point Enterprise",
+      "date": "23-04-2018",
+      "address": "No 148.16 Jalan Permas 4/3",
+      "total": "{'Hwa Tai Luxury': '3.90', 'Peanuts Cracker': '7.80', 'Bento Sweet': '12.90', 'Spicy': '30.90', 'Tango Almonds': '30.90', 'Yeo Soya 1L': '2.50', 'Discount': '7.20', 'Tendered': '160.00', 'Change': '2.10'}"
+    },
+    {
+      "company": "Restoran Hwa Mui Suterra SDN BHD",
+      "date": "29/04/2018",
+      "address": "Taman Suterra Utama, 81300 Skudai, Johor",
+      "total": "{'GST': {'nm': '001177063424', 'discount_price': '15', 'tax_price': '5.18'}, 'emoneyprice': '91.50'}"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "Kek Span",
+      "date": "29-Apr-2018",
+      "address": "1268140-H",
+      "total": "13.00"
+    },
+    {
+      "company": "HIGH FIVE ENTERPRISE X",
+      "date": "05/04/18",
+      "address": "Batu Caves, Selangor",
+      "total": "{'RM': '95.48'}"
+    },
+    {
+      "company": "WESTERN EASTERN",
+      "date": "26-04-2018",
+      "address": "{'street': 'SULTAN AZLAN', 'city': 'SHAH SAHAN', 'province': 'KUALA LUMPUR', 'district': 'KUALA KUALA', 'barangay': '51200 KULAUA'}",
+      "total": "{'creditcardprice': 'RM40.45', 'taxprice': 'RM2.43', 'etcprice': 'RM2.43'}"
+    },
+    {
+      "company": "FamilyMart",
+      "date": "10/04/2018",
+      "address": "No 16A, Jalan Astaka UBA883, Bukit Jelutong",
+      "total": "{'cashprice': '6.00', 'changeprice': '0.20', 'itemssoldprice': '1', 'taxprice': '0.33', 'tax_etc': '5.47', 'srprice': '0.36'}"
+    },
+    {
+      "company": "Duplicate",
+      "date": "07/04/2018",
+      "address": "Gerbang Alaf Restaurants Sdn Bhd",
+      "total": "{'creditcardprice': '109.05', 'changeprice': '40.95', 'taxprice': '6.17'}"
+    },
+    {
+      "company": "NSK TRADE CITY-SELAYANG (6256470-P)",
+      "date": "03-06-2017",
+      "address": "Wisma Yap Yap Tiel (TAG)",
+      "total": "RM 9.00"
+    },
+    {
+      "company": "Gardenia Bakkeries (KL) SDN BHD",
+      "date": "13/3",
+      "address": "I.O. 3, Jalan Petabur 23/1, 40500 Shah Alam, Selangor",
+      "total": "{'nm': '-0.27', 'cnt': '-4.81', 'etc': '-4.54'}"
+    },
+    {
+      "company": "GARDENIA BAKERIES (KL) SDN BHD",
+      "date": "31/08/2017",
+      "address": "{'street': 'LOPT 3, JALAN PELABUR 23/1', 'suburb': 'SELANGOR', 'town': 'SINGAPURA', 'postal_code': '55423213', 'postal_code_indicator': 'SG'}",
+      "total": "{'cashprice': '7831F712', 'creditprice': '7831F712', 'etcprice': '12.60'}"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "PINGHWAI TRADING SDN BHD",
+      "date": "22/08/2017",
+      "address": "NO.2, JALAN METRO PERDANA TIMUR 11, KEPONG ENTERPRENUERS PARK, 52100 KUALA LUMPUR",
+      "total": "{'GST_ID': '001371123712', 'GST_NO': '62591420', 'FXT': '320.00', 'ZRL': '393.00'}"
+    },
+    {
+      "company": "GARDENIA BAKERIES(KL) SDN BHD",
+      "date": "20/08/2017",
+      "address": "Lot 3, Jalan Pelabur 23/1, 40300 Shah Alam, Selangor",
+      "total": "{'creditcardprice': '55423213', 'taxprice': '55423228', 'etcprice': '55423213'}"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "Gardenia Bakeries (KL) SDN BHD",
+      "date": "15/08/2017",
+      "address": "Lot 3, Jalan Pelabur 23/1",
+      "total": "{'UD': '000381399040', 'VE0514': '7815F710', 'cash Inv No.': '7815F710'}"
+    },
+    {
+      "company": "Gardenia Bakeries (KL) SDN BHD",
+      "date": "03/08/2017",
+      "address": "Lot 3, Jalan Pelabur 23/1, 40300 Shah Alam, Selangor",
+      "total": "GST ID: 000381399040"
+    },
+    {
+      "company": "Gardenia Bakery",
+      "date": "07/08/2017",
+      "address": "Lot 3, Jalan Pelabur 23/1, 40300 Shah Alam, Selangor",
+      "total": "{'cash_invoice_number': '7807F716', 'vatno': '7807F716'}"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "Gardenia Bakery (KL) SDN BHD (139386 X)",
+      "date": "01/08/2017",
+      "address": "Lot 3, Jalai Perabul 23/1, 40300 Shah Ahmad, Selangor",
+      "total": "{'cash_invoice_number': '7801F714', 'vatno': 'VEST4'}"
+    },
+    {
+      "company": "Gardenia Bakeries (KL) SDN BHD",
+      "date": "23/09/2017",
+      "address": "Lot 3, Jalan Pelabur 23/1",
+      "total": "{'creditcardprice': '7923F714', 'taxprice': '139386 X'}"
+    },
+    {
+      "company": "Gardena Bakeries (KL) SDN BHD",
+      "date": "22/09/2017",
+      "address": "Lot 3, Jalan Pelabur 23/1, 40300 Shah Amt, Selangor",
+      "total": "{'cd': '000381399040'}"
+    },
+    {
+      "company": "Gardenia Bakery (KL) SDN BHD",
+      "date": "21/09/2017",
+      "address": "Lot 3, Jalan Pelabur 23/1, 40300 Shah Alam, Selangor",
+      "total": "{'cd': '00038 1399040', 'vatno': '00038 1399040'}"
+    },
+    {
+      "company": "gardenia bakeries (k1 ) sdn bhd",
+      "date": "20/09/2017",
+      "address": "1 Lot 3, Jalan Pelabur 223/1, 40300 Shah Alam, Selangor",
+      "total": "{'cd': '03-55423228', 'fax': '03-55423213', 'gst_id': '000381399040'}"
+    },
+    {
+      "company": "Gardenia Bakeries (kl) SDN BHD",
+      "date": "14/09/2017",
+      "address": "Lot 3, Jalan Pelabur 23/1",
+      "total": "{'cash Inv No.': '7914F713', 'date': '14/09/2017'}"
+    },
+    {
+      "company": "Gardenia Bakery (KL) SDN BHD",
+      "date": "02/09/2017",
+      "address": "{'street': 'Lot 3, Jalan Pelabur 23/1', 'num': '40300 Shah Alam, Selangor', 'zip': '55423228', 'fax': '03-55423213', 'tel': '03-55423228'}",
+      "total": "{'creditcardprice': '48.57', 'taxprice': '48.57', 'etc': '48.57'}"
+    },
+    {
+      "company": "Gardenia Bakery (KL) SDN BHD",
+      "date": "27/09/2017",
+      "address": "Lot 3, Jalan Pelabur 23/I, 40300 Shah Alam, Selangor",
+      "total": "{'U.P. Iss Esc': '0', 'D Sale': '0', 'Amt(RM)': '6.39', 'WOOLEMALE': '2.78', 'CUMBO': '2.93', 'TO': '8.91'}"
+    },
+    {
+      "company": "GARDENIA BAKERIES (KL) SDN BHD",
+      "date": "26/09/2017",
+      "address": "Lot 3, Jalan Pelabur 23/1",
+      "total": "{'creditcardprice': '40300 Shah Alam, Selangor', 'taxprice': '55423228', 'vatprice': '55423213'}"
+    },
+    {
+      "company": "Gardenia Bakery (kl)",
+      "date": "24/09/2017",
+      "address": "Lot 3, Jalan Petabur 23/1, 40300 Shah Alam, Selangor",
+      "total": "{'cd': '00381399040', 'vatno': '79245710', 'vatno2': '79245710'}"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "Gardenia Bakeries (KL) SDN BHD (139386 X)",
+      "date": "06/09/2017",
+      "address": "Lot 3, Jalan Perabungan 23/1, 40300 Shah Jam, Selangor",
+      "total": "{'creditcardprice': '55423228', 'taxprice': '55423213', 'vatprice': '00381399040'}"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "GARDENIA BAKERIES (KL) SDN BHD (139386 X)",
+      "date": "01/09/2017",
+      "address": "{'street': 'Lot 3, Jalan Pelabur 23/1', 'num': '40300 Shah Alam, Selangor'}",
+      "total": "{'cash_invoice_number': '7901F709', 'vatno': '000381399040', 'vatclass': 'V', 'vatnumber': '000381399040', 'vatclass2': 'V'}"
+    },
+    {
+      "company": "Gardenia Bakery (kl) SDN BHD (139386 X)",
+      "date": "28/10/2017",
+      "address": "{'street': 'Lot 13, Jalal Perabul 23/1, 40300 Shah Aam, Selangor', 'fax': '03-55423228', 'phone': '03-554232213', 'estd_id': '000381399040'}",
+      "total": "{'cash_inv_no': '7028F714', 'date': '28/10/2017', 'vatno': '7028F714'}"
+    },
+    {
+      "company": "Gardenia Bakery (KL/SDN BHD)",
+      "date": "16/10/2017",
+      "address": "Lot 3, Jalan Pelabur 23B, 40300 Shah Alam, Selangor",
+      "total": "{'cash Inv No.': '7016F714', 'date': '16/10/2017'}"
+    },
+    {
+      "company": "Gardenia Bakeries (KL) SDN BHD",
+      "date": "13/10/2017",
+      "address": "Lot 3, Jalan Pelabur 23/1, 40300 Shah Alam, Selangor",
+      "total": "{'cash Inv. No.': '7013F714', 'date': '13/10/2017'}"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "Gardenia Bakery (KL) SDN BHD",
+      "date": "07/10/2017",
+      "address": "100 3, Jalan Pelabur 23/1, Selangor",
+      "total": "{'creditcardprice': '70077F714', 'cashprice': '70077F714', 'etc': '12:06'}"
+    },
+    {
+      "company": "GARDENIA BAKERIES (KL) SDN BHD (139386 X)",
+      "date": "06/10/2017",
+      "address": "Lot 3, Jalan Pelabur 23/1, 40300 Shah Alam, Selangor",
+      "total": "33.84"
+    },
+    {
+      "company": "Gardenia Bakeries (KL) SDN BHD (139386 X)",
+      "date": "07/10/2017",
+      "address": "103 3, Jalan Pelabur 23/1, 40300 Shah Alam, Selangor",
+      "total": "{'creditcardprice': '55423228', 'taxprice': '55423213', 'etcprice': '55423213'}"
+    },
+    {
+      "company": "YIN MA (M) SDN.BHD. (974306-T)",
+      "date": "31 Jan 2016",
+      "address": "NO.2, JALAN UDANG SIAR 2, TAMAN SRI SEGAMBUT, 52000 KUALA LUMPUR",
+      "total": "{'GST_Code': 'SGX', 'GST_Amount': '0.31', 'Tax_Amount': '5.09', 'cashprice': '5.40'}"
+    },
+    {
+      "company": "SPEED MART S/B",
+      "date": "31-01-16",
+      "address": "JALANI KAPAR, HUKUM KAPAR 42100 KLAANG, SELANGOR",
+      "total": "{'creditcardprice': '262.20', 'changeprice': 'RM 262.20', 'creditprice': 'RM 262.20'}"
+    },
+    {
+      "company": "MR. D.I.Y. (M) SUN BHD",
+      "date": "18-04-16",
+      "address": "KAWASAN PERTINDUSIAN BALAKONG, 43300 SERI KEMANGAN, SELANGOR",
+      "total": "RM 5.48"
+    },
+    {
+      "company": "REDAI UEAT & RUNCIN HONG",
+      "date": "21/06/2020",
+      "address": "Ning New SDN. BHD.",
+      "total": "893449770"
+    },
+    {
+      "company": "KEDAIUBAT & RUNCITT HONG NING SOND, BHD.",
+      "date": "24/12/28",
+      "address": "52100 KUAJA LUMPUR",
+      "total": "24.10"
+    },
+    {
+      "company": "Golden Arches Restaurants Sdn Bhd",
+      "date": "06-12-2016",
+      "address": "Level 6, Bangunan TH, Damansara Uptown3 No.3, Jalan SS21/39, 47400 Petaling Jaya",
+      "total": "0.83"
+    },
+    {
+      "company": "Gudang Hasil Restaurant Sdn Bhd",
+      "date": "11/12/2016",
+      "address": "Melaka",
+      "total": "RM7.90"
+    },
+    {
+      "company": "99 SPEED MART S/B (519537-X)",
+      "date": "04-12-16",
+      "address": "TAMAN BERKELEY",
+      "total": "85.44"
+    },
+    {
+      "company": "KEDAIURAT & RUNCIT HONG",
+      "date": "02/02/16",
+      "address": "32100 KULAJA LUMPUR",
+      "total": "{'cashprice': '676.00', 'changeprice': '0.00', 'creditprice': '637.73', 'taxprice': '38.27'}"
+    },
+    {
+      "company": "MR. D.I.Y. (Kuchai) SDN BHD",
+      "date": "01-02-16",
+      "address": "43300 SERI KEMBANG, SELANGOR",
+      "total": "RM 26.40"
+    },
+    {
+      "company": "MR. D.I.Y. (M) SON BHD",
+      "date": "21-02-16",
+      "address": "KAWASAN PERINDUSTRIAN BALAKUNG, 43300 SERI KEMBANG, SELANGOR",
+      "total": "RM 1.75"
+    },
+    {
+      "company": "MR. D.I.Y. (KUCHAI) SDN BHD",
+      "date": "10-01-16",
+      "address": "KAWASAN PERINDUSTRIAN BALAKONG; 43300, SERI KEMANGAN, SELANGOR",
+      "total": "RM 8.10"
+    },
+    {
+      "company": "MR. D.I.Y. (KUCHAI) SON BHD",
+      "date": "11-01-16",
+      "address": "43300 SERI KEMANGAN, SELANGOR",
+      "total": "RM 0.40"
+    },
+    {
+      "company": "MR. D.I.Y. (M) SDN BHD",
+      "date": "11-01-16",
+      "address": "KAWASAN PERINDUSIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR",
+      "total": "RM 1.86"
+    },
+    {
+      "company": "THINKING",
+      "date": "07/07/2023",
+      "address": "123 Main Street",
+      "total": "4.05"
+    },
+    {
+      "company": "KEDAI URBAT & RUNCIT HONG",
+      "date": "02/01/16",
+      "address": "NO.8, JALAN LANG KUNDONG, KEONG BARUJ, 32100 KULAJA LUMPUR",
+      "total": "717853-P"
+    },
+    {
+      "company": "MR. D.I.Y. (KUCHAI) SDN BHD",
+      "date": "05-01-16",
+      "address": "KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMANG, SELANGOR",
+      "total": "RM 1.95"
+    },
+    {
+      "company": "MR. D.I.Y. (M) SDN BHD",
+      "date": "10-01-16",
+      "address": "KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMANGAN, SELANGOR (GST ID No: 000306020352)",
+      "total": "RM 3.35"
+    },
+    {
+      "company": "Yam Fresh",
+      "date": "01/01/2016",
+      "address": "Laman Rimbunan Raya 1, Laman Rimbunan Kepong, 52100 Kuala Lumpur",
+      "total": "7.95"
+    },
+    {
+      "company": "SECURITY & OTA TRADING",
+      "date": "7/6/2016",
+      "address": "Lot 008, 3rd Floor, SG, Wang Plaza",
+      "total": "{'tax_amount': '399.00', 'service_amount': '399.00', 'total_service_amount': '399.00', 'total_service_price': '399.00', 'total_service_price_tax': '399.00'}"
+    },
+    {
+      "company": "YIN MA (M) SDN.BHD.",
+      "date": "19 JUL 2016",
+      "address": "52000 KUALA LUMPUR",
+      "total": "14.50"
+    },
+    {
+      "company": "YIN MA (M) SDN.BHD. (974306-T),",
+      "date": "03 Jun 2016 12:26:00",
+      "address": "NO.2, JALAN UDANG SIAP 2, TAMAN SRI SEGAMBUT, 520000 KULAJA LUMPUR, GST REG NO: 000119906304",
+      "total": "32.70"
+    },
+    {
+      "company": "SPEED MART S/B",
+      "date": "08/06-16",
+      "address": "Jalan Kapar, Nukim Kapar",
+      "total": "{'amount': '2.11', 'tax_price': '1.99'}"
+    },
+    {
+      "company": "HOME'S HARMONY @ 1 UTAMA SHOPPING CENTRE",
+      "date": "12/06/2016",
+      "address": "PERSIANARAN BANDAR UTANA, 47800 PETALING Jaya, Malaysia",
+      "total": "23.20"
+    },
+    {
+      "company": "MR. D.I.Y. (M) SUN BHD",
+      "date": "06-05-16",
+      "address": "EALIARASI",
+      "total": "RM 26.70"
+    },
+    {
+      "company": "Win Soon Cafe",
+      "date": "08/05/2021",
+      "address": "Jin Metro Pernada Barat 1",
+      "total": "78.50"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "SUPPLIER",
+      "date": "09/09/2020",
+      "address": "ADDRESS",
+      "total": "{'GST_SUMMARY': {'Amount(RM)': '13.40', 'Tax(RM)': '80'}, 'CHANGE': 'RM'}"
+    },
+    {
+      "company": "Restoran Hoetim",
+      "date": "28/05/2018",
+      "address": "Selayang",
+      "total": "RM17.00"
+    },
+    {
+      "company": "Kechara Vegetarian Restaurant S/B",
+      "date": "31",
+      "address": "The Suite, Jaya One, Jalan 72A, Petaling Jaya, Selangor",
+      "total": "64.50"
+    },
+    {
+      "company": "99 SPEED MART",
+      "date": "08/24/2023",
+      "address": "LOT P.1. 33198, BATU 4",
+      "total": "{'GST_SUMMARY': '13.40', 'change': '5.80'}"
+    },
+    {
+      "company": "Pu Tien (M), SDN BHD",
+      "date": "12/10/2017",
+      "address": "Lot 2-25, Sunway Velocity Mall, Lingkaran SV, Sunway Velocity, 55100 Kuala Lumpur",
+      "total": "RM34.87"
+    },
+    {
+      "company": "YIM Mid Valley",
+      "date": "15/12/2017",
+      "address": "Mid Valley City, 1 Longkaran Syed Putra, 59201 Kuala Lumpur Malaysia",
+      "total": "{'cashprice': '1', 'taxprice': '3.80', 'etc': '3.80'}"
+    },
+    {
+      "company": "THE COFFEE BEN",
+      "date": "15/12/2017",
+      "address": "MID VALLEY CITY, LINGKAN SYED PUT",
+      "total": "39.70"
+    },
+    {
+      "company": "Guardian Health And Beauty Sdn Bhd",
+      "date": "08/08/17",
+      "address": "Jalan SS21/60; Damansara Utama, 5489",
+      "total": "{'gst_rate': '6.13', 'cashprice': '102.08', 'changeprice': '1.80', 'gst_amt': '22.99', 'discountprice': '6.13'}"
+    },
+    {
+      "company": "SKL DAMANSARA ENTERPRISE",
+      "date": "04/07/2020",
+      "address": "Selangor",
+      "total": "28.80"
+    },
+    {
+      "company": "AEON CO. (M) BHD (126926-H)",
+      "date": "09/07/2017",
+      "address": "DAISO STARLING MALL",
+      "total": "{'creditcardprice': '5157 0001 0013311', 'taxprice': '1.33', 'discountprice': '22.47', 'etcprice': '22.47'}"
+    },
+    {
+      "company": "TOTAL SALES",
+      "date": "07/31/2017",
+      "address": "41150 Klang, Selangor",
+      "total": "{'GST ID': '000181747712', 'INVOICE NO': '18124/103/T0056', 'CHANGE RM': '46.70'}"
+    },
+    {
+      "company": "BECON STATIONER",
+      "date": "13-11-2017",
+      "address": "Damansara Utama Outlet, No.41G, Jln S21/60, Damansara, Utama, 47400 P.O., Selangor",
+      "total": "{'H/COVER F/SCAP BOOK': '300PGS(NN) HF309/HFC', 'TACK-II 120pcs F/CASTELL': '75GMS 187092/7057', 'TACK-II 120pcs SR': '5.70', '#1201622': '1 5.70'}"
+    },
+    {
+      "company": "Royal Tea",
+      "date": "09/05/2018",
+      "address": "Jalan Suteran Tanjung 8/3, Taman Suteran Utama, Johor, Malaysia",
+      "total": "10.90"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "BHPPetrol Pernas Jaya 2",
+      "date": "08-05-2018",
+      "address": "81750 Masai, Johor",
+      "total": "{'cash': 'RM 50.00'}"
+    },
+    {
+      "company": "AEON B.C.M (M) BHD",
+      "date": "12/08/2019",
+      "address": "355000 KULAMU LUMPUR",
+      "total": "{'cashprice': '470.00', 'changeprice': '11.45'}"
+    },
+    {
+      "company": "UNIHAKKA INTERNATIONAL SDN BHD",
+      "date": "10 MAY 2018",
+      "address": "UNIHAKKA INTERNATIONAL SDN BHD",
+      "total": "{'creditcardprice': '11.51', 'taxprice': '0.69'}"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "UNIHAKKA INTERNATIONAL SDN BHD",
+      "date": "23 May 2018",
+      "address": "Tampoi, 81200 Johor Bahru, Johor",
+      "total": "4.40"
+    },
+    {
+      "company": "GOLDEN KEY MAKER",
+      "date": "31/04/07",
+      "address": "47100 Puchong, Selangor",
+      "total": "{'discount_price': '0.00', 'cashprice': '10.00', 'changeprice': '0.00', 'creditcardprice': '10.00'}"
+    },
+    {
+      "company": "MR. D. O. Y. (M) Sdn Bhd",
+      "date": "31/804076",
+      "address": "43300 SERI KEMBANGAN, SELANGOR (GST ID No: 000306020352)",
+      "total": "RM 5.00"
+    },
+    {
+      "company": "MR. D.I.Y. (M) SON BHD",
+      "date": "3/84/04",
+      "address": "KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR (GST ID No: : 00030606020352)",
+      "total": "RM 100.00"
+    },
+    {
+      "company": "MR. D.I.Y. (M) SDN BHD",
+      "date": "3180404",
+      "address": "KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR (GST ID No : 000306020352)",
+      "total": "RM 27.20"
+    },
+    {
+      "company": "MR. D.I.Y. (M) SDN BHD",
+      "date": "27-04-18",
+      "address": "KAWASAN PERINDUSTRIAN BALLAKONG, 43300 SERI KEMBANGAN, SELANGOR (GST ID No : 000306020352)",
+      "total": "{'cashprice': 'RM 2.00', 'changeprice': 'RM 0.10', 'creditprice': 'RM 0.11', 'gstprice': 'RM 0.11'}"
+    },
+    {
+      "company": "UNIPHARM PHARMACY",
+      "date": "05/04/2018",
+      "address": "B12, Jalan SS 15/4D, 47500 Subang Jaya, 03-5635 1892 / 03-5611 6279",
+      "total": "{'cashprice': '2.36', 'changeprice': '0.00', 'creditprice': '24.90', 'gstprice': '0.00', 'taxprice': '10'}"
+    },
+    {
+      "company": "UNIHAKKA INTERNATIONAL SDN BHD",
+      "date": "06 May 2018",
+      "address": "Tampik, 81200 Johor Bahru, Johor HJK 8000",
+      "total": "{'amount': '867238.00', 'tax_price': '0.41', 'gst_price': '0.69'}"
+    },
+    {
+      "company": "Lunhakka International",
+      "date": "12 May 2018",
+      "address": "Tampoi, 81200 Johah Bahr, Johah, SR",
+      "total": "{'GST': '0.66', 'NETT': '0.66'}"
+    },
+    {
+      "company": "UNIHAKKA INTERNATIONAL SDN BHD",
+      "date": "02 May 2018",
+      "address": "Tampi 81200, Kawasan Perindustrian",
+      "total": "{'cashprice': '8.20', 'changeprice': '0.00', 'taxprice': '0.46', 'gstprice': '0.00', 'gstsum': '7.74'}"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "UNIHAKKA INTERNATIONAL SDN BHD",
+      "date": "03 MAY 2018",
+      "address": "TAMPOI, 81200 JOHOR BARU, JOHOR",
+      "total": "{'GST': '0000000000000000', 'GST_SUM': '0000000000000000', 'GST_BY': '0000000000000000', 'GST_BY_2': '0000000000000000', 'GST_BY_6': '0000000000000000'}"
+    },
+    {
+      "company": "UNNIHAKKA INTERNATIONAL SDN BHD",
+      "date": "04 May 2018",
+      "address": "Tampoi, 81200 Johor Bahru, Johor",
+      "total": "{'GST Summary': {'GST Reg No': '0066515584', 'Price': '0.37'}, 'Tax': '0.37'}"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "Global Food Empire Sdn Bhd",
+      "date": "2018-05-01",
+      "address": "No. 27, Jalan Austin Height 8/4, Taman Mount Austin, 81100 Johor Bahru, 07-361 5965",
+      "total": "38.35"
+    },
+    {
+      "company": "SANYU Stationery Shop",
+      "date": "05/04/2017",
+      "address": "40170 SETIA ALAM",
+      "total": "3.30 SR"
+    },
+    {
+      "company": "SANYU Stationery Shop",
+      "date": "27/03/2017",
+      "address": "40170 SETIA ALAM",
+      "total": "8.70"
+    },
+    {
+      "company": "SANYU STATIONERY SHOP",
+      "date": "28/10/2017",
+      "address": "SANYU, JALAN SETTIA INDIA X, U13/X",
+      "total": "{'cashprice': '40.00', 'changeprice': '18.10', 'taxprice': '1.24'}"
+    },
+    {
+      "company": "TERIMA KASIH SILA DATANG LAGI",
+      "date": "17/11/2017",
+      "address": "40170 SETIA ALAM, JALAN SETIA INDIA X, U13/X",
+      "total": "2.00 SR"
+    },
+    {
+      "company": "SANYU Stationery Shop",
+      "date": "12/09/2017",
+      "address": "40170 SETTIA ALAM, JALAN SETIA INDIA X, U13/X",
+      "total": "8.70 SR"
+    },
+    {
+      "company": "SANYU STATIONERY SHOP",
+      "date": "14/10/2017",
+      "address": "40170 SETTA ALAM",
+      "total": "{'creditcardprice': '8.70', 'discountprice': '0.00', 'taxprice': '0.49', 'etc': '8.70'}"
+    },
+    {
+      "company": "SANYU STATIONERY SHOP",
+      "date": "24/09/2017",
+      "address": "40170 JALAN SETTIA INDIA X",
+      "total": "8.70 SR"
+    },
+    {
+      "company": "TERIMA KASIH",
+      "date": "24/10/2017",
+      "address": "SANYU STATIONERY SHOP",
+      "total": "0.00"
+    },
+    {
+      "company": "SANYU Stationery Shop",
+      "date": "06/10/2017",
+      "address": "SANYU, JALAN SETTIA INDIA X, U13/X",
+      "total": "8.70 SR"
+    },
+    {
+      "company": "SANYU STATIONERY SHOP",
+      "date": "Saturday, 16 December, 2017",
+      "address": "40170 SETA ALAM",
+      "total": "{'cashprice': '10.00', 'changeprice': '1.30', 'creditprice': '8.21', 'taxprice': '0.49'}"
+    },
+    {
+      "company": "SANYU Stationery Shop",
+      "date": "21/12/2017",
+      "address": "40170 SETIA ALAM, MOTORSWAYS, 60100 SETIA INDIA X, U13/X",
+      "total": "3.90"
+    },
+    {
+      "company": "SANYU STATIONERY SHOP",
+      "date": "29/11/2017",
+      "address": "40170 SETTA ALAM",
+      "total": "{'creditcardprice': '2.30', 'discountprice': '0.00', 'etcprice': '2.30'}"
+    },
+    {
+      "company": "SANYU Stationery Shop",
+      "date": "23/11/2017",
+      "address": "40170 SETTIA ALAM, JALAN SETTIA INDIA X, U13/X",
+      "total": "10.89"
+    },
+    {
+      "company": "Aik Huat Hardware",
+      "date": "02/09/2017",
+      "address": "82737-X",
+      "total": "1.58"
+    },
+    {
+      "company": "Super Ninety Nine Sdn. Bhd.",
+      "date": "31/05/2018",
+      "address": "Taman Sri Serdang, 43300 Seri Kembangan, 603-9545 1212",
+      "total": "2.99"
+    },
+    {
+      "company": "SYARIKAT KAM LAISEONG SDN BHD (Co)",
+      "date": "08/03/2012",
+      "address": "43300 SELANGOR",
+      "total": "{'creditcardprice': '10.75', 'discountprice': '0.00', 'etcprice': '0.00', 'etcdiscprice': '0.00', 'etcdiscountprice': '0.00'}"
+    },
+    {
+      "company": "NASI KANDAR PELITA",
+      "date": "03/06/2018",
+      "address": "CO REG NO: 481477-P",
+      "total": "61.70"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "THONG RECIPE",
+      "date": "27/06/18",
+      "address": "16G BLOCK B, ZENITH CORPORATE PARK",
+      "total": "58.7"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "UNIHAKKA INTERNATIONAL SDN BHD",
+      "date": "02 Jun 2018",
+      "address": "Tampoi 8120 Johor Bahru, Johor",
+      "total": "867388-U"
+    },
+    {
+      "company": "Moonlight Cake House",
+      "date": "02/06/2018",
+      "address": "10/5, Bandar Baru Pemasat",
+      "total": "{'rm16.20': 'RM16.20'}"
+    },
+    {
+      "company": "AEON CO., (M) BHD (D) 12G692H-G",
+      "date": "3RD FLR, AEON TAMAN MULIWARI",
+      "address": "CHERAS, 550010 KULAUMUR",
+      "total": "1x 1000 HRS - 2250 HR"
+    },
+    {
+      "company": "UNIHAKKA INTERNATIONAL SDN BHD",
+      "date": "06 Jun 2018",
+      "address": "Tampol, 81200 Johor Bahru, Johor",
+      "total": "{'cash': 'RM7.25', 'change': 'RM0.00'}"
+    },
+    {
+      "company": "Moonlight Cake House Sdn Bhd",
+      "date": "07/06/2018",
+      "address": "862725-U",
+      "total": "81750 Johor Bahru, Johor. Tel No: 07-387 3322"
+    },
+    {
+      "company": "UNIHAKKA INTERNATIONAL SDN BHD",
+      "date": "07 Jun 2018",
+      "address": "Tampo, 81200 Kawasan Perindustrian, Johor Bahru, JK",
+      "total": "{'MRR_1': 'RM6.69', 'MRR_1.50': 'RM1.50', 'Amount': 'RM8.20', 'Change': 'RM0.00'}"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "UNIHAKKA INTERNATIONAL SDN BHD",
+      "date": "05 Jun 2018",
+      "address": "Tami 82000, Kawasan Perindustrian",
+      "total": "{'MR1.55': 'RM1.50', 'MR1.50': 'RM1.50'}"
+    },
+    {
+      "company": "Moonlight Cake House",
+      "date": "11/06/2018",
+      "address": "Johor Bahru, Johor",
+      "total": "RM28.20"
+    },
+    {
+      "company": "CHICKEN BLACK PEPPER",
+      "date": "2018-08-20",
+      "address": "123 Main Street, Anytown, USA",
+      "total": "{'cash': '200.00', 'change': '96.00'}"
+    },
+    {
+      "company": "AEON Co. (M) BHD",
+      "date": "FRI- SAT:1000 HRS - 2300 HRS",
+      "address": "3RD FLR, AEON TAMAN MALURI SC",
+      "total": "{'cash': '50.00', 'change': '41.05', 'creditcard': '002017394688'}"
+    },
+    {
+      "company": "Old Town White Coffee",
+      "date": "03 Jun 18",
+      "address": "4004 ANDA",
+      "total": "{'cashprice': '100.00', 'changeprice': '4003 CLOSED 03 JUN 18 03:34:54 PM'}"
+    },
+    {
+      "company": "IKANO HANDLEK SDN BHD",
+      "date": "09/06/18",
+      "address": "No. 33, Jalan Harmonium, Taman Desa Tebrau, 81100 Johor Bahru",
+      "total": "{'RM Including GST 0%': '46.20', 'Rounding 0.00': '0.00', 'Total Rounded': '46.20'}"
+    },
+    {
+      "company": "118 M Mookata House",
+      "date": "11-06-2018",
+      "address": "118 M Mookata House, 118 M Mookata House, Bandar Baru Pertamina Jaya, 81750 Masai, Johor",
+      "total": "{'QTY ITEM': '12', 'PRICE': '48.00', 'TOTAL': '48.00'}"
+    },
+    {
+      "company": "UNIHAKKA INTERNATIONAL SDN BHD",
+      "date": "13 Jun 2018",
+      "address": "12 Jalan Tampol 7/4 Kawasan Perindustrian, Tampustan, RM812000000000",
+      "total": "8.85"
+    },
+    {
+      "company": "UNHAKTA INTERNATIONAL SDN BHD",
+      "date": "14/Jun 2018",
+      "address": "Tampin, 81200 Bahru, Johor",
+      "total": "{'MRR': 'RM4.15', 'SR': 'SR 1001000019-01', 'GST': 'RM1.50', 'GST_rate': '10.17', 'GST_reg': '000656155844'}"
+    },
+    {
+      "company": "AEON CO. (M) BHD",
+      "date": "12/6296-H",
+      "address": "JL JENKA, TAMAN MALURI SC",
+      "total": "{'creditcardprice': '02017394688'}"
+    },
+    {
+      "company": "MUTTIARA RINI SDN BHD",
+      "date": "21/6/2018",
+      "address": "53 & 55, JALAN UTAMA 34, MUTTIARA RINI, SKUDAI, JOHOR",
+      "total": "000445296640"
+    },
+    {
+      "company": "UNHIAKKA INTERNATIONAL SDN BHD",
+      "date": "19 Jun 2018",
+      "address": "Tampoli, 81200 Bahru Johar, Johor",
+      "total": "867388-U"
+    },
+    {
+      "company": "Gerbang Alf Restaurants Sdn Bhd",
+      "date": "06/10/2021",
+      "address": "Bangunan TH, Damansara Uptown3",
+      "total": "{'nm': \"McDonald's Mutiara Rini DT #309\"}"
+    },
+    {
+      "company": "UNIHAKKA INTERNATIONAL SDN SHD",
+      "date": "21 Jun 2018",
+      "address": "12 Jalan Tampo 7/4, Kawasan Perindustrian",
+      "total": "{'SR': '0180621021064040', 'RM6.69': '1', 'RM1.03': '1', 'GST': '0%', 'Amount': 'RM7.72'}"
+    },
+    {
+      "company": "NAM SAN SEOUL KOREAN BBQ",
+      "date": "19/06/2018",
+      "address": "Bang Bang, 10/5, Jalan Permata, 81750 Johor Bahru, Johor",
+      "total": "{'price': '139.00', 'service_charges': '13.90', 'cashprice': '152.90', 'changeprice': '0.00'}"
+    },
+    {
+      "company": "Royaltea",
+      "date": "02/06/2018",
+      "address": "KSL City, Jalan Selangod Taman Abad, 80250 Johor Bahru, Johor, Malaysia",
+      "total": ""
+    },
+    {
+      "company": "Restoran Wan Sheng",
+      "date": "09-04-2018",
+      "address": "Seksyen 9, Bandar Mahkota Cheras, 43200 Cheras, GST REG No: 001335787520",
+      "total": "{'cashprice': '16.61', 'taxprice': '0.99', 'tax_sum': '17.60'}"
+    },
+    {
+      "company": "RESTORAN WAN SHENG",
+      "date": "02-04-2018",
+      "address": "43200 Cheras, Selangor",
+      "total": "{'total_oty': '4', 'total_excl_gst': '5.66', 'gst_payable': '0.34', 'total_inclusive_gst': '6.00'}"
+    },
+    {
+      "company": "Restoran Wan Sheng",
+      "date": "05/05/2018",
+      "address": "Seksyen 9, Bandar Mahkota Cheras, 43200 Cheras, Selangor",
+      "total": "{'cashprice': '7.18', 'taxprice': '0.42', 'serviceprice': '7.60', 'etcprice': '0.42'}"
+    },
+    {
+      "company": "Restoran Wan Sheng",
+      "date": "10-05-2018",
+      "address": "43200 Cheras, Selangor",
+      "total": "{'cashprice': '0.39', 'taxprice': '0.39'}"
+    },
+    {
+      "company": "Restoran Wan Sheng",
+      "date": "11-05-2018",
+      "address": "Seksyen 9, Bandar Mankota Cheras, 43200 Cheras, Selangor",
+      "total": "{'cashprice': '1.70', 'taxprice': '0.20', 'gstprice': '1.79', 'gsttaxprice': '0.11', 'gsttaxsumprice': '1.90'}"
+    },
+    {
+      "company": "Gerbang Alaf Restaurants Sdn Bhd",
+      "date": "13/05/2018",
+      "address": "Selangor",
+      "total": "1.08"
+    },
+    {
+      "company": "FISH FARM THAI RESTAURANT",
+      "date": "01/05/2018",
+      "address": "Veg Fish Farm Thai Restaurant, Comp. Reg No. 928627-V, Km 4, Jln Ampang, Hulu Langat, 68000 Ampang, Selangor. +6012-260 6493 or +6012-286 8193",
+      "total": "40"
+    },
+    {
+      "company": "Restoran Wan Sheng",
+      "date": "02/04/2020",
+      "address": "0202043319-W",
+      "total": "{'tax_price': '4.60', 'tax_etc': '0.00', 'etc': '4.60'}"
+    },
+    {
+      "company": "Restoran Wan Sheng",
+      "date": "02/06/2018",
+      "address": "Seksyen 9, Bandar Mahkota Cheras, 43200 Selangor",
+      "total": "{'GST_SUMMARY': {'GST_SUMMARY_AMOUNT': '7.20', 'GST_SUMMARY_TAX_RATE': '@ 0%'}, 'TAX_AMOUNT': '0.00'}"
+    },
+    {
+      "company": "Restoran Wan Sheng",
+      "date": "27-06-2018",
+      "address": "Seksyen 9, Bandar Maktota Cheras, Selangor",
+      "total": "{'amount': '2.30', 'tax': '0.00'}"
+    },
+    {
+      "company": "Restoran Wan Sheng",
+      "date": "01-06-2018",
+      "address": "Seksyen 9, Bandar Moktata Cheras, Selangor",
+      "total": "{'cashprice': '4.80', 'taxprice': '0.00'}"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    },
+    {
+      "company": "Boon Seng Paper Sdn Bhd",
+      "date": "12/16/2018",
+      "address": "Jalan Bunga Tanjung, 400000 Shah Alam, Selangor",
+      "total": "{'GST ID': '001005957120', 'tax invoice': 'No.: Cs180319-0015', 'qty': '12', 'tax': '30.00 SR', 'etc': '31.80'}"
+    },
+    {
+      "company": "PASARAYA BORONG PINTAR",
+      "date": "14/03/2018",
+      "address": "SDN BHD",
+      "total": "0.90"
+    },
+    {
+      "company": "LUAN HING STATIONERY Sdn Bhd",
+      "date": "27/03/2018",
+      "address": "43300 SERI KEMBANGAN, SEDANG",
+      "total": "{'creditcardprice': '162761-M', 'taxprice': '162761-M'}"
+    },
+    {
+      "company": "",
+      "date": "",
+      "address": "",
+      "total": ""
+    }
+  ],
+  "results": {
+    "em_company": 0.401,
+    "tf1_company": 0.672,
+    "cf1_company": 0.786,
+    "em_date": 0.591,
+    "tf1_date": 0.6,
+    "cf1_date": 0.77,
+    "em_address": 0.043,
+    "tf1_address": 0.399,
+    "cf1_address": 0.533,
+    "em_total": 0.196,
+    "tf1_total": 0.196,
+    "cf1_total": 0.347,
+    "em_overall": 0.308,
+    "tf1_overall": 0.467,
+    "cf1_overall": 0.609
+  }
+}

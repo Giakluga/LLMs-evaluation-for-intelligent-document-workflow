@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data / outputs (large files)
+*.csv
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Model weights / cache
+.cache/
+models/
+weights/
+checkpoints/
+
+# LaTeX (source and auxiliary files)
+*.tex
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+
+# Chart exports and slide images
+chart_*.pdf
+report.pdf
+slides_images/
+
+# Project proposal
+*.pdf
+# Re-include the final report
+!LLM_Evaluation_for_Intelligent_Document_Workflows.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,14 @@
+Few-Shot vs Fine-Tuned — Document Classification Results
+============================================================
+
+Dataset : chainyo/rvl-cdip
+Device  : cuda
+
+Model                       Accuracy   Macro F1   Invoice F1         Type
+────────────────────────────────────────────────────────────────────────
+Qwen2-VL-7B                    0.389      0.378        0.612     few-shot
+Qwen2.5-VL-3B                  0.501      0.493        0.506     few-shot
+CLIP ViT-B/32                  0.354      0.313        0.365     few-shot
+PaliGemma2-3B                  0.063      0.007        0.000     few-shot
+DiT-large                      0.930      0.930        0.925     few-shot
+DeiT-small FT                  0.757      0.741        0.600   fine-tuned
