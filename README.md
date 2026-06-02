@@ -8,7 +8,7 @@
 
 ## Overview
 
-This project provides a rigorous comparative evaluation of open-source **vision-language models (VLMs)** for enterprise document understanding, with a focus on **invoices**. The work is motivated by the development of a fully local Swiss document platform: all inference runs locally, no data leaves the execution environment, and no proprietary cloud APIs (e.g. GPT-4o) are used.
+This project provides a rigorous comparative evaluation of open-source **vision-language models (VLMs)** for enterprise document understanding, with a focus on **invoices**. The work is motivated by the development of a fully local Swiss document platform: all inference runs locally, no data leaves the execution environment, and no proprietary cloud APIs are used.
 
 We cover two operational tasks that mirror a realistic document processing pipeline:
 
