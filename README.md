@@ -36,12 +36,12 @@ For each task we benchmark **zero-shot and few-shot prompting** across multiple 
 
 ### Key-Field Extraction (test set: 347 receipts)
 
-| Model | Zero-shot EM | Zero-shot Char F1 | 10-shot EM | 10-shot Char F1 |
-|---|---|---|---|---|
-| **Qwen2-VL-7B** | 0.477 | 0.820 | **0.501** | **0.888** |
-| PaliGemma2-3B | **0.433** | **0.795** | 0.077 | 0.642 |
-| SmolVLM-500M | 0.308 | 0.609 | 0.000 | 0.000 |
-| Qwen2.5-VL-3B | 0.345 | 0.656 | 0.311 | 0.750 |
+| Model | Zero-shot EM | Zero-shot Token F1 | Zero-shot Char F1 | 10-shot EM | 10-shot Token F1 | 10-shot Char F1 |
+|---|---|---|---|---|---|---|
+| **Qwen2-VL-7B** | 0.477 | 0.660 | 0.820 | **0.501** | **0.696** | **0.888** |
+| PaliGemma2-3B | **0.433** | **0.607** | **0.795** | 0.077 | 0.150 | 0.642 |
+| SmolVLM-500M | 0.308 | 0.467 | 0.609 | 0.000 | 0.000 | 0.000 |
+| Qwen2.5-VL-3B | 0.345 | 0.498 | 0.656 | 0.311 | 0.481 | 0.750 |
 
 *EM = Exact Match (overall across all 4 fields)*
 
