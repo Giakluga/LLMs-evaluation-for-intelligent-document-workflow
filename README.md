@@ -21,32 +21,35 @@ For each task we benchmark **zero-shot and few-shot prompting** across multiple 
 
 ## Key Results
 
-### Document Classification (1-shot, test set: 1,600 images)
+### Document Classification (test set: 1,600 images)
 
-| Model | Accuracy | Macro F1 | Invoice F1 |
-|---|---|---|---|
-| **PaliGemma2-3B + LoRA** *(fine-tuned)* | **0.900** | **0.885** | **0.882** |
-| DeiT-small *(fine-tuned)* | 0.757 | 0.741 | 0.600 |
-| DiT-large *(specialist, upper bound)* | 0.930 | 0.930 | 0.925 |
-| Qwen2.5-VL-3B | 0.501 | 0.493 | 0.506 |
-| Qwen2-VL-7B | 0.389 | 0.378 | 0.612 |
-| CLIP ViT-B/32 | 0.354 | 0.313 | 0.365 |
-| PaliGemma2-3B *(zero/few-shot)* | 0.063 | 0.007 | 0.000 |
+| Model | Zero-shot Acc | Zero-shot Invoice F1 | 1-shot Acc | 1-shot Invoice F1 |
+|---|---|---|---|---|
+| DiT-large *(specialist, upper bound)* | 0.929 | 0.935 | 0.930 | 0.925 |
+| **PaliGemma2-3B + LoRA** *(fine-tuned)* | — | — | **0.900** | **0.882** |
+| DeiT-small *(fine-tuned)* | — | — | 0.757 | 0.600 |
+| Qwen2.5-VL-3B | 0.541 | 0.604 | 0.501 | 0.506 |
+| Qwen2-VL-7B | **0.546** | **0.693** | 0.389 | 0.612 |
+| PaliGemma2-3B | 0.418 | 0.241 | 0.063 | 0.000 |
+| SmolVLM-500M | 0.266 | 0.381 | — | — |
+| CLIP ViT-B/32 | 0.287 | 0.123 | 0.354 | 0.365 |
 
-### Key-Field Extraction (10-shot, test set: 347 receipts)
+### Key-Field Extraction (test set: 347 receipts)
 
-| Model | Exact Match | Token F1 | Char F1 |
-|---|---|---|---|
-| **Qwen2-VL-7B** | **0.501** | **0.696** | **0.888** |
-| Qwen2.5-VL-3B | 0.311 | 0.481 | 0.750 |
-| PaliGemma2-3B | 0.077 | 0.150 | 0.642 |
-| SmolVLM-500M | 0.000 | 0.000 | 0.000 |
+| Model | Zero-shot EM | Zero-shot Char F1 | 10-shot EM | 10-shot Char F1 |
+|---|---|---|---|---|
+| **Qwen2-VL-7B** | 0.477 | 0.820 | **0.501** | **0.888** |
+| PaliGemma2-3B | **0.433** | **0.795** | 0.077 | 0.642 |
+| SmolVLM-500M | 0.308 | 0.609 | 0.000 | 0.000 |
+| Qwen2.5-VL-3B | 0.345 | 0.656 | 0.311 | 0.750 |
+
+*EM = Exact Match (overall across all 4 fields)*
 
 **Main takeaways:**
-- Fine-tuned PaliGemma2-3B (LoRA) approaches the specialist DiT-large at a fraction of the parameters (3B vs 307M, but with general-purpose pretraining)
-- Qwen2-VL-7B is the strongest off-the-shelf model for extraction
-- Few-shot prompting consistently **hurts** classification but **helps** large-model extraction — the optimal strategy is task- and model-dependent
-- SmolVLM-500M (500M params) completely fails at structured extraction in few-shot mode
+- Fine-tuned PaliGemma2-3B (LoRA) approaches the specialist DiT-large at a fraction of the parameters
+- Few-shot prompting consistently **hurts** classification (PaliGemma2-3B collapses from 0.418 to 0.063 accuracy) but **helps** large-model extraction — optimal strategy is task- and model-dependent
+- Qwen2-VL-7B is the strongest off-the-shelf model overall, best at both zero-shot classification and few-shot extraction
+- SmolVLM-500M completely fails at structured extraction in few-shot mode despite reasonable zero-shot performance
 
 ---
 
