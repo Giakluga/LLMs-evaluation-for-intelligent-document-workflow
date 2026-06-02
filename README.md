@@ -1,81 +1,69 @@
 # LLM Evaluation for Intelligent Document Workflows
 
-**NLP for Business and Finance — Invoices**  
-Giacomo Lugana, Roberto Stoian · May 2026
+> **NLP for Business and Finance** — University Project, May 2026  
+> Giacomo Lugana, Roberto Stoian
+
+---
 
 ## Overview
 
-Comparative evaluation of open-source vision-language models (VLMs) for two core invoice-processing tasks:
+This project benchmarks open-source **vision-language models (VLMs)** on two core invoice-processing tasks, motivated by the need for a fully local Swiss document platform (in partnership with Sacco AI Consulting) where no data leaves the execution environment.
 
-- **Document classification** — routing incoming documents to the correct downstream process (RVL-CDIP dataset, 16 classes)
-- **Key-field extraction** — populating structured databases from receipts (SROIE dataset)
+| Task | Dataset | Metric |
+|---|---|---|
+| Document classification | RVL-CDIP (16 classes, 400k images) | Accuracy, Macro F1, Invoice F1 |
+| Key-field extraction | SROIE (973 receipts) | Exact match, F1 |
 
-We benchmark zero-shot and few-shot prompting strategies across six models, and fine-tune DeiT-small and PaliGemma2-3B (LoRA) on the classification task. All models run **fully locally** — no cloud APIs, no data leaving the execution environment.
+We evaluate **zero-shot and few-shot** prompting across six models, and **fine-tune** DeiT-small and PaliGemma2-3B (LoRA) on the classification task.
 
-### Key results
+---
 
-- Fine-tuned PaliGemma2-3B reaches **90.0% accuracy** and **0.882 invoice F1**, approaching specialist DiT-large at a fraction of the parameters
-- Qwen2-VL-7B achieves the strongest extraction performance among off-the-shelf models
-- Few-shot prompting consistently hurts classification but benefits large-model extraction
+## Key Results
 
-## Repository structure
+- 🏆 **Fine-tuned PaliGemma2-3B** reaches **90.0% accuracy** and **0.882 invoice F1**, approaching specialist DiT-large at a fraction of the parameters
+- 🔍 **Qwen2-VL-7B** achieves the strongest extraction performance among off-the-shelf models
+- ⚠️ Few-shot prompting consistently **hurts classification** but **benefits large-model extraction** — optimal strategy is task- and model-dependent
 
-```
-NLPv2/
-├── 01_explore/                   # Dataset exploration
-│   └── 01_explore_dataset_v2.ipynb
-├── zero_cla/                     # Zero-shot classification
-│   └── zero-shot_classification.ipynb
-├── few_cla/                      # Few-shot classification
-│   └── 02_classification_fewshot_v2.ipynb
-├── extraction/                   # Information extraction (SROIE)
-│   ├── zero-shot-information-extraction-sroie.ipynb
-│   ├── few-shot-information-extraction-sroie.ipynb
-│   └── rescore-zero-and-few-shot.ipynb
-├── fine-tuning/                  # Fine-tuning experiments
-│   ├── 03_deit_finetuning_v2.ipynb       # DeiT-small fine-tuning
-│   ├── 05_paligemma_finetuning.ipynb     # PaliGemma2-3B + LoRA
-│   └── 06_deit_comparison.ipynb          # DeiT comparison
-├── slides_images/                # Slide assets
-├── report.tex                    # LaTeX report source
-└── report.pdf                    # Compiled report
-```
+---
 
-## Models evaluated
-
-| Model | Task |
-|---|---|
-| Qwen2-VL-7B | Classification & Extraction |
-| PaliGemma2-3B | Classification & Extraction |
-| SmolVLM | Classification & Extraction |
-| DeiT-small (fine-tuned) | Classification |
-| PaliGemma2-3B + LoRA (fine-tuned) | Classification |
-
-## Datasets
-
-- **[RVL-CDIP](https://huggingface.co/datasets/aharley/rvl_cdip)** — 400k scanned document images, 16 classes
-- **[SROIE](https://huggingface.co/datasets/darentang/sroie)** — 973 scanned receipts with annotated key fields
-
-## Requirements
-
-Notebooks were developed with Python 3.10+. Main dependencies:
+## Repository Structure
 
 ```
-torch
-transformers
-peft
-timm
-Pillow
-datasets
-evaluate
+├── 01_explore/          # Dataset exploration (RVL-CDIP visual properties)
+├── zero_cla/            # Zero-shot document classification
+├── few_cla/             # Few-shot document classification
+├── extraction/          # Zero-shot & few-shot key-field extraction (SROIE)
+├── fine-tuning/         # DeiT-small and PaliGemma2-3B + LoRA fine-tuning
+└── LLM_Evaluation_for_Intelligent_Document_Workflows.pdf   # Full report
 ```
 
-Install with:
+---
+
+## Models
+
+| Model | Parameters | Tasks |
+|---|---|---|
+| Qwen2-VL-7B | 7B | Classification, Extraction |
+| PaliGemma2-3B | 3B | Classification, Extraction |
+| PaliGemma2-3B + LoRA | 3B | Classification (fine-tuned) |
+| SmolVLM-500M | 500M | Classification, Extraction |
+| Qwen2.5-VL-3B | 3B | Extraction |
+| DeiT-small | 22M | Classification (fine-tuned) |
+
+---
+
+## Setup
+
+Python 3.10+
 
 ```bash
 pip install torch transformers peft timm Pillow datasets evaluate
 ```
 
+> Fine-tuning experiments were run on GPU. For inference-only notebooks, CPU is sufficient for small models.
+
+---
+
 ## Report
 
-See [`LLM_Evaluation_for_Intelligent_Document_Workflows.pdf`](LLM_Evaluation_for_Intelligent_Document_Workflows.pdf) for the full write-up.
+The full write-up is available in [`LLM_Evaluation_for_Intelligent_Document_Workflows.pdf`](LLM_Evaluation_for_Intelligent_Document_Workflows.pdf).
